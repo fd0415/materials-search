@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-06-11T08:22:43.472Z",
+  "input": {
+    "enEntryCount": 161,
+    "zhEntryCount": 158,
+    "enBadBlocks": [],
+    "zhBadBlocks": []
+  },
+  "cleaning": {
+    "droppedEnCount": 13,
+    "droppedZhCount": 4,
+    "droppedEnExamples": [
+      {
+        "sourceIndex": "20",
+        "startMs": 60800,
+        "endMs": 61500,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "21",
+        "startMs": 62200,
+        "endMs": 62800,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "22",
+        "startMs": 63000,
+        "endMs": 63500,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "23",
+        "startMs": 64500,
+        "endMs": 65000,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "24",
+        "startMs": 66800,
+        "endMs": 68900,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "25",
+        "startMs": 70900,
+        "endMs": 71500,
+        "text": "#  #",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "26",
+        "startMs": 71800,
+        "endMs": 72100,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "27",
+        "startMs": 74000,
+        "endMs": 74500,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "28",
+        "startMs": 74700,
+        "endMs": 75500,
+        "text": "#",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "72",
+        "startMs": 202200,
+        "endMs": 203700,
+        "text": "VOCV",
+        "reason": "drop_uppercase_noise"
+      },
+      {
+        "sourceIndex": "117",
+        "startMs": 320400,
+        "endMs": 320600,
+        "text": "623",
+        "reason": "drop_uppercase_noise"
+      },
+      {
+        "sourceIndex": "137",
+        "startMs": 364600,
+        "endMs": 365900,
+        "text": "BTTE",
+        "reason": "drop_uppercase_noise"
+      }
+    ],
+    "droppedZhExamples": [
+      {
+        "sourceIndex": "24",
+        "startMs": 62100,
+        "endMs": 62300,
+        "text": "+",
+        "reason": "drop_symbol_only"
+      },
+      {
+        "sourceIndex": "133",
+        "startMs": 363600,
+        "endMs": 363900,
+        "text": "KOG",
+        "reason": "drop_uppercase_noise"
+      },
+      {
+        "sourceIndex": "134",
+        "startMs": 364200,
+        "endMs": 364500,
+        "text": "THOC",
+        "reason": "drop_uppercase_noise"
+      },
+      {
+        "sourceIndex": "145",
+        "startMs": 396500,
+        "endMs": 397399,
+        "text": "770",
+        "reason": "drop_uppercase_noise"
+      }
+    ]
+  },
+  "alignment": {
+    "matchedEn": 146,
+    "unmatchedEn": 2,
+    "missingZh": 2,
+    "missingEn": 14,
+    "matchRate": 0.986,
+    "avgAbsStartDeltaMs": 81.4,
+    "outputLineCount": 156,
+    "zhEntryCount": 154,
+    "examples": [
+      {
+        "startMs": 300,
+        "endMs": 2700,
+        "textEn": "However,if it's observed after it's left the plane",
+        "textZh": "但如果它是在离开平面后",
+        "source": {
+          "zhIndex": "1",
+          "enIndexes": [
+            "1"
+          ]
+        },
+        "qualityFlags": []
+      },
+      {
+        "startMs": 2800,
+        "endMs": 3999,
+        "textEn": "But before it hits its target,",
+        "textZh": "在击中目标物之前被观测到",
+        "source": {
+          "zhIndex": "2",
+          "enIndexes": [
+            "2",
+            "3"
+          ]
+        },
+        "qualityFlags": []
+      },
+      {
+        "startMs": 4000,
+        "endMs": 5200,
+        "textEn": "it won't have gone through both slits.",
+        "textZh": "那它不会同时通过两个狭缝",
+        "source": {
+          "zhIndex": "3",
+          "enIndexes": [
+            "4"
+          ]
+        },
+        "qualityFlags": []
+      },
+      {
+        "startMs": 6100,
+        "endMs": 7300,
+        "textEn": "II1555Agreed.whats your point?XA 1",
+        "textZh": "没错你想说什么 m口心 TA",
+        "source": {
+          "zhIndex": "4",
+          "enIndexes": [
+            "5"
+          ]
+        },
+        "qualityFlags": [
+          "ocr_noise_suspected"
+        ]
+      },
+      {
+        "startMs": 7500,
+        "endMs": 7699,
+        "textEn": null,
+        "textZh": "TA",
+        "source": {
+          "zhIndex": "5",
+          "enIndexes": []
+        },
+        "qualityFlags": [
+          "very_short_text"
+        ]
+      },
+      {
+        "startMs": 7700,
+        "endMs": 10300,
+        "textEn": "There's no point,I just think it's a good idea for a t-shirt.",
+        "textZh": "没什么我只是觉得这个主意放在T恤上不镜",
+        "source": {
+          "zhIndex": "6",
+          "enIndexes": [
+            "6"
+          ]
+        },
+        "qualityFlags": []
+      },
+      {
+        "startMs": 16700,
+        "endMs": 18400,
+        "textEn": "excuse me. -hang on",
+        "textZh": "-您好-稍等",
+        "source": {
+          "zhIndex": "7",
+          "enIndexes": [
+            "7"
+          ]
+        },
+        "qualityFlags": []
+      },
+      {
+        "startMs": 21800,
+        "endMs": 22700,
+        "textEn": null,
+        "textZh": "Johnny Galecki",
+        "source": {
+          "zhIndex": "8",
+          "enIndexes": []
+        },
+        "qualityFlags": []
+      }
+    ],
+    "unmatchedEnExamples": [
+      {
+        "startMs": 56500,
+        "endMs": 58000,
+        "textEn": "I think this is theplace.",
+        "textZh": null,
+        "source": {
+          "zhIndex": null,
+          "enIndexes": [
+            "18"
+          ]
+        },
+        "qualityFlags": []
+      },
+      {
+        "startMs": 414000,
+        "endMs": 414400,
+        "textEn": ".1",
+        "textZh": null,
+        "source": {
+          "zhIndex": null,
+          "enIndexes": [
+            "155"
+          ]
+        },
+        "qualityFlags": [
+          "very_short_text"
+        ]
+      }
+    ]
+  },
+  "output": {
+    "segmentCount": 29
+  }
+}

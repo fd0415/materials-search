@@ -1,0 +1,3283 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-11T06:54:47.605Z",
+  "checksumSha256": "76ffb06e7768efb09d13f913f0e88fea73dc2c13706180ab4a7c0c2cc3919f38",
+  "shows": [
+    {
+      "id": "the-big-bang-theory",
+      "title": "The Big Bang Theory",
+      "titleZh": "生活大爆炸",
+      "contentPolicy": "subtitle_timecode_metadata_only"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bbt-s01e01-pilot-sample",
+      "showId": "the-big-bang-theory",
+      "showTitle": "The Big Bang Theory",
+      "seasonNumber": 1,
+      "episodeNumber": 1,
+      "episodeCode": "S01E01",
+      "title": "Pilot sample",
+      "durationMs": 423900,
+      "sourceNote": "Subtitle/timecode metadata only. Video is not included in the import payload."
+    }
+  ],
+  "subtitleLines": [
+    {
+      "id": "bbt-s01e01-line-0001",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 1,
+      "startMs": 300,
+      "endMs": 2700,
+      "timecodeLabel": "00:00-00:02",
+      "textEn": "However,if it's observed after it's left the plane",
+      "textZh": "但如果它是在离开平面后",
+      "sourceZhIndex": "1",
+      "sourceEnIndexes": [
+        "1"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0002",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 2,
+      "startMs": 2800,
+      "endMs": 3999,
+      "timecodeLabel": "00:02-00:03",
+      "textEn": "But before it hits its target,",
+      "textZh": "在击中目标物之前被观测到",
+      "sourceZhIndex": "2",
+      "sourceEnIndexes": [
+        "2",
+        "3"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0003",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 3,
+      "startMs": 4000,
+      "endMs": 5200,
+      "timecodeLabel": "00:04-00:05",
+      "textEn": "it won't have gone through both slits.",
+      "textZh": "那它不会同时通过两个狭缝",
+      "sourceZhIndex": "3",
+      "sourceEnIndexes": [
+        "4"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0004",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 4,
+      "startMs": 6100,
+      "endMs": 7300,
+      "timecodeLabel": "00:06-00:07",
+      "textEn": "II1555Agreed.what's your point?XA 1",
+      "textZh": "没错你想说什么 m口心 TA",
+      "sourceZhIndex": "4",
+      "sourceEnIndexes": [
+        "5"
+      ],
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0005",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 5,
+      "startMs": 7500,
+      "endMs": 7699,
+      "timecodeLabel": "00:07-00:07",
+      "textEn": null,
+      "textZh": "TA",
+      "sourceZhIndex": "5",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0006",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 6,
+      "startMs": 7700,
+      "endMs": 10300,
+      "timecodeLabel": "00:07-00:10",
+      "textEn": "There's no point,I just think it's a good idea for a t-shirt.",
+      "textZh": "没什么我只是觉得这个主意放在T恤上不镜",
+      "sourceZhIndex": "6",
+      "sourceEnIndexes": [
+        "6"
+      ],
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0007",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 7,
+      "startMs": 16700,
+      "endMs": 18400,
+      "timecodeLabel": "00:16-00:18",
+      "textEn": "excuse me. -hang on",
+      "textZh": "-您好-稍等",
+      "sourceZhIndex": "7",
+      "sourceEnIndexes": [
+        "7"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0008",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 8,
+      "startMs": 21800,
+      "endMs": 24400,
+      "timecodeLabel": "00:21-00:24",
+      "textEn": "One across is \"aegean.\"",
+      "textZh": "Johnny Galecki",
+      "sourceZhIndex": "8",
+      "sourceEnIndexes": [
+        "8"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0009",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 9,
+      "startMs": 22700,
+      "endMs": 24400,
+      "timecodeLabel": "00:22-00:24",
+      "textEn": "One across is \"aegean.\"",
+      "textZh": "横1是爱琴海",
+      "sourceZhIndex": "9",
+      "sourceEnIndexes": [
+        "8"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0010",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 10,
+      "startMs": 24500,
+      "endMs": 25800,
+      "timecodeLabel": "00:24-00:25",
+      "textEn": "Eight down is \"nabokov.\"",
+      "textZh": "竖8是纳巴科夫",
+      "sourceZhIndex": "10",
+      "sourceEnIndexes": [
+        "9"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0011",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 11,
+      "startMs": 26000,
+      "endMs": 28300,
+      "timecodeLabel": "00:26-00:28",
+      "textEn": "26 across is \"mcm.\"",
+      "textZh": "横26MCM",
+      "sourceZhIndex": "11",
+      "sourceEnIndexes": [
+        "10"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0012",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 12,
+      "startMs": 28300,
+      "endMs": 30900,
+      "timecodeLabel": "00:28-00:30",
+      "textEn": "14 down is... move your finger.",
+      "textZh": "Jim Parsonse",
+      "sourceZhIndex": "12",
+      "sourceEnIndexes": [
+        "11"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0013",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 13,
+      "startMs": 28600,
+      "endMs": 30900,
+      "timecodeLabel": "00:28-00:30",
+      "textEn": "14 down is... move your finger.",
+      "textZh": "竖14是你手挡住了",
+      "sourceZhIndex": "13",
+      "sourceEnIndexes": [
+        "11"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0014",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 14,
+      "startMs": 31800,
+      "endMs": 34400,
+      "timecodeLabel": "00:31-00:34",
+      "textEn": "\"phylum\" which makes 14 across \"port-au-prince\"",
+      "textZh": "是门所以说横十四是太子港",
+      "sourceZhIndex": "14",
+      "sourceEnIndexes": [
+        "12"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0015",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 15,
+      "startMs": 36100,
+      "endMs": 39300,
+      "timecodeLabel": "00:36-00:39",
+      "textEn": "See,\"papa doc's capitol idea,\" that's \"port-au-prince.\"",
+      "textZh": "尔看这是海地总统绰号提示了所以是太子",
+      "sourceZhIndex": "15",
+      "sourceEnIndexes": [
+        "13"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0016",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 16,
+      "startMs": 36100,
+      "endMs": 39300,
+      "timecodeLabel": "00:36-00:39",
+      "textEn": "See,\"papa doc's capitol idea,\" that's \"port-au-prince.\"",
+      "textZh": "尔看这是海地总统绰号提示了所以是太子",
+      "sourceZhIndex": "16",
+      "sourceEnIndexes": [
+        "13"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0017",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 17,
+      "startMs": 40800,
+      "endMs": 41800,
+      "timecodeLabel": "00:40-00:41",
+      "textEn": "Haiti.",
+      "textZh": "在海地",
+      "sourceZhIndex": "17",
+      "sourceEnIndexes": [
+        "14"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0018",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 18,
+      "startMs": 43300,
+      "endMs": 44900,
+      "timecodeLabel": "00:43-00:44",
+      "textEn": "-can I help you?-yes.",
+      "textZh": "需要帮忙吗是的",
+      "sourceZhIndex": "18",
+      "sourceEnIndexes": [
+        "15"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0019",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 19,
+      "startMs": 45400,
+      "endMs": 51000,
+      "timecodeLabel": "00:45-00:51",
+      "textEn": "Is this the high-iq sperm bank?",
+      "textZh": "Simon Herberp",
+      "sourceZhIndex": "19",
+      "sourceEnIndexes": [
+        "16"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0020",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 20,
+      "startMs": 47800,
+      "endMs": 51000,
+      "timecodeLabel": "00:47-00:51",
+      "textEn": "Is this the high-iq sperm bank?",
+      "textZh": "这里是高智商**库吗",
+      "sourceZhIndex": "20",
+      "sourceEnIndexes": [
+        "16"
+      ],
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0021",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 21,
+      "startMs": 52600,
+      "endMs": 55300,
+      "timecodeLabel": "00:52-00:55",
+      "textEn": "If you have to ask,maybe you shouldn't be here.",
+      "textZh": "如果这还要问的话那你可能不该来这",
+      "sourceZhIndex": "21",
+      "sourceEnIndexes": [
+        "17"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0022",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 22,
+      "startMs": 56500,
+      "endMs": 58700,
+      "timecodeLabel": "00:56-00:58",
+      "textEn": "I think this is theplace.",
+      "textZh": "Kunal Nayyar",
+      "sourceZhIndex": "22",
+      "sourceEnIndexes": [
+        "18"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0023",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 23,
+      "startMs": 59200,
+      "endMs": 60600,
+      "timecodeLabel": "00:59-01:00",
+      "textEn": "-fill these out. -thank you.",
+      "textZh": "一把表格填了-谢谢",
+      "sourceZhIndex": "23",
+      "sourceEnIndexes": [
+        "19"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0024",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 24,
+      "startMs": 62100,
+      "endMs": 62300,
+      "timecodeLabel": "01:02-01:02",
+      "textEn": null,
+      "textZh": "+",
+      "sourceZhIndex": "24",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0025",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 25,
+      "startMs": 62700,
+      "endMs": 63200,
+      "timecodeLabel": "01:02-01:03",
+      "textEn": null,
+      "textZh": "公",
+      "sourceZhIndex": "25",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0026",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 26,
+      "startMs": 68300,
+      "endMs": 69399,
+      "timecodeLabel": "01:08-01:09",
+      "textEn": null,
+      "textZh": "2",
+      "sourceZhIndex": "26",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0027",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 27,
+      "startMs": 69400,
+      "endMs": 75100,
+      "timecodeLabel": "01:09-01:15",
+      "textEn": null,
+      "textZh": "人 H",
+      "sourceZhIndex": "27",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0028",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 28,
+      "startMs": 79100,
+      "endMs": 81200,
+      "timecodeLabel": "01:19-01:21",
+      "textEn": "Leonard,I don't think I can do this.",
+      "textZh": "莱纳德我觉得我做不到",
+      "sourceZhIndex": "28",
+      "sourceEnIndexes": [
+        "29"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0029",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 29,
+      "startMs": 81400,
+      "endMs": 83700,
+      "timecodeLabel": "01:21-01:23",
+      "textEn": "What,are you kidding? you're a semi-pro.",
+      "textZh": "开什么玩笑你都是半职业选手了",
+      "sourceZhIndex": "29",
+      "sourceEnIndexes": [
+        "30"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0030",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 30,
+      "startMs": 84800,
+      "endMs": 87100,
+      "timecodeLabel": "01:24-01:27",
+      "textEn": "No. we.are committing genetic fraud.",
+      "textZh": "不是的我们这是在犯基因欺诈罪",
+      "sourceZhIndex": "30",
+      "sourceEnIndexes": [
+        "31"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0031",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 31,
+      "startMs": 87300,
+      "endMs": 88999,
+      "timecodeLabel": "01:27-01:28",
+      "textEn": "There's no guarantee that our sperm",
+      "textZh": "我们的**并不能保证",
+      "sourceZhIndex": "31",
+      "sourceEnIndexes": [
+        "32"
+      ],
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0032",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 32,
+      "startMs": 89000,
+      "endMs": 90699,
+      "timecodeLabel": "01:29-01:30",
+      "textEn": "is going to generate high-iqOffspring.",
+      "textZh": "将来就能生出高智商的后代",
+      "sourceZhIndex": "32",
+      "sourceEnIndexes": [
+        "33"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0033",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 33,
+      "startMs": 90700,
+      "endMs": 93400,
+      "timecodeLabel": "01:30-01:33",
+      "textEn": "Think about that. I have a sister with the same basic dna mix",
+      "textZh": "你想想我姐姐和我的DNA结构相同",
+      "sourceZhIndex": "33",
+      "sourceEnIndexes": [
+        "34"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0034",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 34,
+      "startMs": 93600,
+      "endMs": 95200,
+      "timecodeLabel": "01:33-01:35",
+      "textEn": "Who hostesses at-fuddruckers.",
+      "textZh": "可她只是快餐店的女服务生",
+      "sourceZhIndex": "34",
+      "sourceEnIndexes": [
+        "35"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0035",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 35,
+      "startMs": 96500,
+      "endMs": 98300,
+      "timecodeLabel": "01:36-01:38",
+      "textEn": "Sheldon,this was your idea.",
+      "textZh": "谢尔顿当初是你要来的",
+      "sourceZhIndex": "35",
+      "sourceEnIndexes": [
+        "36",
+        "37"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0036",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 36,
+      "startMs": 98600,
+      "endMs": 99699,
+      "timecodeLabel": "01:38-01:39",
+      "textEn": "A little extra money to get",
+      "textZh": "这点补贴能让我们",
+      "sourceZhIndex": "36",
+      "sourceEnIndexes": [
+        "38"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0037",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 37,
+      "startMs": 99700,
+      "endMs": 102099,
+      "timecodeLabel": "01:39-01:42",
+      "textEn": "fractional t-1 bandwidth in the apartment.",
+      "textZh": "在寓所里拥有分式T-1带宽",
+      "sourceZhIndex": "37",
+      "sourceEnIndexes": [
+        "39"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0038",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 38,
+      "startMs": 102100,
+      "endMs": 104800,
+      "timecodeLabel": "01:42-01:44",
+      "textEn": "I know,and I do yearn for faster downloads.",
+      "textZh": "我知道我的确渴望更快的下载速度",
+      "sourceZhIndex": "38",
+      "sourceEnIndexes": [
+        "40"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0039",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 39,
+      "startMs": 105800,
+      "endMs": 106999,
+      "timecodeLabel": "01:45-01:46",
+      "textEn": "But there's some poor woman",
+      "textZh": "但那些可怜的女人们",
+      "sourceZhIndex": "39",
+      "sourceEnIndexes": [
+        "41"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0040",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 40,
+      "startMs": 107000,
+      "endMs": 109100,
+      "timecodeLabel": "01:47-01:49",
+      "textEn": "who's gonna pin her hopes on my sperm.",
+      "textZh": "会把希望寄托在我**上的",
+      "sourceZhIndex": "40",
+      "sourceEnIndexes": [
+        "42"
+      ],
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0041",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 41,
+      "startMs": 109200,
+      "endMs": 111800,
+      "timecodeLabel": "01:49-01:51",
+      "textEn": "What if she winds up with a toddler who doesn't know if he should use",
+      "textZh": "如果她最后发现那小不点连曲线下面积",
+      "sourceZhIndex": "41",
+      "sourceEnIndexes": [
+        "43"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0042",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 42,
+      "startMs": 111900,
+      "endMs": 115400,
+      "timecodeLabel": "01:51-01:55",
+      "textEn": "An integral or a differential to solve the area under a curve?",
+      "textZh": "该用积分还是微分算都不知道她会怎么想",
+      "sourceZhIndex": "42",
+      "sourceEnIndexes": [
+        "44"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0043",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 43,
+      "startMs": 116300,
+      "endMs": 118800,
+      "timecodeLabel": "01:56-01:58",
+      "textEn": "-i'm sure she'll still love him. -i wouldn't.",
+      "textZh": "一我肯定她还是会爱他的-我不会",
+      "sourceZhIndex": "43",
+      "sourceEnIndexes": [
+        "45"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0044",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 44,
+      "startMs": 120900,
+      "endMs": 122400,
+      "timecodeLabel": "02:00-02:02",
+      "textEn": "Well,what do you want to do?",
+      "textZh": "你现在想怎么样",
+      "sourceZhIndex": "44",
+      "sourceEnIndexes": [
+        "46"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0045",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 45,
+      "startMs": 122500,
+      "endMs": 123400,
+      "timecodeLabel": "02:02-02:03",
+      "textEn": "I want to leave.",
+      "textZh": "我想走了",
+      "sourceZhIndex": "45",
+      "sourceEnIndexes": [
+        "47"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0046",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 46,
+      "startMs": 123500,
+      "endMs": 124200,
+      "timecodeLabel": "02:03-02:04",
+      "textEn": "OK",
+      "textZh": "好吧",
+      "sourceZhIndex": "46",
+      "sourceEnIndexes": [
+        "48"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0047",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 47,
+      "startMs": 125400,
+      "endMs": 126800,
+      "timecodeLabel": "02:05-02:06",
+      "textEn": "What's the protocol for leaving?",
+      "textZh": "该怎么跟她说呢",
+      "sourceZhIndex": "47",
+      "sourceEnIndexes": [
+        "49"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0048",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 48,
+      "startMs": 127200,
+      "endMs": 130400,
+      "timecodeLabel": "02:07-02:10",
+      "textEn": "I don't know.. I've never reneged on a proffer of sperm before",
+      "textZh": "找不知道我以前从来没在捐献**时中途走人",
+      "sourceZhIndex": "48",
+      "sourceEnIndexes": [
+        "50"
+      ],
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0049",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 49,
+      "startMs": 131800,
+      "endMs": 133100,
+      "timecodeLabel": "02:11-02:13",
+      "textEn": "Let's try just walking out.",
+      "textZh": "我们就直接走吧",
+      "sourceZhIndex": "49",
+      "sourceEnIndexes": [
+        "51"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0050",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 50,
+      "startMs": 134100,
+      "endMs": 134500,
+      "timecodeLabel": "02:14-02:14",
+      "textEn": null,
+      "textZh": "好",
+      "sourceZhIndex": "50",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0051",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 51,
+      "startMs": 145500,
+      "endMs": 147800,
+      "timecodeLabel": "02:25-02:27",
+      "textEn": "-bye. -bye. nice meeting you.",
+      "textZh": "-再见一再见很高兴见到你",
+      "sourceZhIndex": "51",
+      "sourceEnIndexes": [
+        "52"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0052",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 52,
+      "startMs": 150700,
+      "endMs": 152400,
+      "timecodeLabel": "02:30-02:32",
+      "textEn": "Are you still mad about the sperm bank?",
+      "textZh": "你还在为那个**库的事生气吗",
+      "sourceZhIndex": "52",
+      "sourceEnIndexes": [
+        "53"
+      ],
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0053",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 53,
+      "startMs": 152600,
+      "endMs": 153000,
+      "timecodeLabel": "02:32-02:33",
+      "textEn": "No.",
+      "textZh": "没有",
+      "sourceZhIndex": "53",
+      "sourceEnIndexes": [
+        "54"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0054",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 54,
+      "startMs": 154800,
+      "endMs": 157700,
+      "timecodeLabel": "02:34-02:37",
+      "textEn": "You want to hear an interesting thing about stairs?",
+      "textZh": "你想不想听有关楼梯的有趣事情",
+      "sourceZhIndex": "54",
+      "sourceEnIndexes": [
+        "55"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0055",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 55,
+      "startMs": 158200,
+      "endMs": 159300,
+      "timecodeLabel": "02:38-02:39",
+      "textEn": "Not really.",
+      "textZh": "不太想",
+      "sourceZhIndex": "55",
+      "sourceEnIndexes": [
+        "56"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0056",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 56,
+      "startMs": 160000,
+      "endMs": 162800,
+      "timecodeLabel": "02:40-02:42",
+      "textEn": "If the height of a single step is off by as little as two millimeters,",
+      "textZh": "果有一格阶梯的高度存在哪怕两毫米的微小",
+      "sourceZhIndex": "56",
+      "sourceEnIndexes": [
+        "57"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0057",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 57,
+      "startMs": 163000,
+      "endMs": 165300,
+      "timecodeLabel": "02:43-02:45",
+      "textEn": "-most people will trip. -i don't care.",
+      "textZh": "一大多数人会被绊倒-跟我无关",
+      "sourceZhIndex": "57",
+      "sourceEnIndexes": [
+        "58"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0058",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 58,
+      "startMs": 167000,
+      "endMs": 168800,
+      "timecodeLabel": "02:47-02:48",
+      "textEn": "Two mili... that doesn't seem right.",
+      "textZh": "两毫那不太可能吧",
+      "sourceZhIndex": "58",
+      "sourceEnIndexes": [
+        "59"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0059",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 59,
+      "startMs": 168900,
+      "endMs": 171300,
+      "timecodeLabel": "02:48-02:51",
+      "textEn": "No,it's true,I did a series of experiments when I was 12",
+      "textZh": "不是真的我12岁时做过一系列试验",
+      "sourceZhIndex": "59",
+      "sourceEnIndexes": [
+        "60"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0060",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 60,
+      "startMs": 171400,
+      "endMs": 173000,
+      "timecodeLabel": "02:51-02:53",
+      "textEn": "My father broke his clavicle.",
+      "textZh": "我爸爸还摔断了锁骨",
+      "sourceZhIndex": "60",
+      "sourceEnIndexes": [
+        "61"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0061",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 61,
+      "startMs": 174400,
+      "endMs": 176200,
+      "timecodeLabel": "02:54-02:56",
+      "textEn": "Is that why they sent you to boarding school?",
+      "textZh": "你就是因为这个被他们送去寄宿学校的",
+      "sourceZhIndex": "61",
+      "sourceEnIndexes": [
+        "62"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0062",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 62,
+      "startMs": 176400,
+      "endMs": 179000,
+      "timecodeLabel": "02:56-02:59",
+      "textEn": "No. that was a result of my work with lasers.",
+      "textZh": "不是是因为我那些关于激光的试验",
+      "sourceZhIndex": "62",
+      "sourceEnIndexes": [
+        "63"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0063",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 63,
+      "startMs": 183400,
+      "endMs": 183700,
+      "timecodeLabel": "03:03-03:03",
+      "textEn": null,
+      "textZh": "A",
+      "sourceZhIndex": "63",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0064",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 64,
+      "startMs": 185000,
+      "endMs": 186100,
+      "timecodeLabel": "03:05-03:06",
+      "textEn": "New neighbor?",
+      "textZh": "这是新邻居",
+      "sourceZhIndex": "64",
+      "sourceEnIndexes": [
+        "64"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0065",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 65,
+      "startMs": 186300,
+      "endMs": 187300,
+      "timecodeLabel": "03:06-03:07",
+      "textEn": "Evidently.",
+      "textZh": "很明显",
+      "sourceZhIndex": "65",
+      "sourceEnIndexes": [
+        "65"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0066",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 66,
+      "startMs": 187800,
+      "endMs": 190400,
+      "timecodeLabel": "03:07-03:10",
+      "textEn": "Significant improvement over the old neighbor.",
+      "textZh": "比起上一个的水准真是有显著提高",
+      "sourceZhIndex": "66",
+      "sourceEnIndexes": [
+        "66"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0067",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 67,
+      "startMs": 191500,
+      "endMs": 193600,
+      "timecodeLabel": "03:11-03:13",
+      "textEn": "200-pound transvestite with a skin condition?",
+      "textZh": "那个体重200磅有皮肤问题的异装癖者",
+      "sourceZhIndex": "67",
+      "sourceEnIndexes": [
+        "67"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0068",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 68,
+      "startMs": 193700,
+      "endMs": 194700,
+      "timecodeLabel": "03:13-03:14",
+      "textEn": "Yes,she is.",
+      "textZh": "那是没错",
+      "sourceZhIndex": "68",
+      "sourceEnIndexes": [
+        "68"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0069",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 69,
+      "startMs": 197200,
+      "endMs": 200200,
+      "timecodeLabel": "03:17-03:20",
+      "textEn": "W-ohhi-hiK oh.hi.=hi.",
+      "textZh": "一你好一你好",
+      "sourceZhIndex": "69",
+      "sourceEnIndexes": [
+        "69",
+        "70"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0070",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 70,
+      "startMs": 201800,
+      "endMs": 203999,
+      "timecodeLabel": "03:21-03:23",
+      "textEn": "rOLVCOCY",
+      "textZh": "你好",
+      "sourceZhIndex": "70",
+      "sourceEnIndexes": [
+        "71"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0071",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 71,
+      "startMs": 204000,
+      "endMs": 206200,
+      "timecodeLabel": "03:24-03:26",
+      "textEn": "We don't mean to interrupt. we live across the hall",
+      "textZh": "我们不想打搅你我们就住你对面",
+      "sourceZhIndex": "71",
+      "sourceEnIndexes": [
+        "73"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0072",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 72,
+      "startMs": 206400,
+      "endMs": 208100,
+      "timecodeLabel": "03:26-03:28",
+      "textEn": "Oh,that'snice.",
+      "textZh": "你们真好啊",
+      "sourceZhIndex": "72",
+      "sourceEnIndexes": [
+        "74"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0073",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 73,
+      "startMs": 209200,
+      "endMs": 211100,
+      "timecodeLabel": "03:29-03:31",
+      "textEn": "We don't live together. I mean...",
+      "textZh": "我们不是住在一起我是说",
+      "sourceZhIndex": "73",
+      "sourceEnIndexes": [
+        "75"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0074",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 74,
+      "startMs": 211800,
+      "endMs": 212900,
+      "timecodeLabel": "03:31-03:32",
+      "textEn": "We live together,",
+      "textZh": "我们是住在一起",
+      "sourceZhIndex": "74",
+      "sourceEnIndexes": [
+        "76"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0075",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 75,
+      "startMs": 213000,
+      "endMs": 216000,
+      "timecodeLabel": "03:33-03:36",
+      "textEn": "But in separate,heterosexual bedrooms.",
+      "textZh": "不过是在分开的异性恋的卧室里",
+      "sourceZhIndex": "75",
+      "sourceEnIndexes": [
+        "77"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0076",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 76,
+      "startMs": 217400,
+      "endMs": 218400,
+      "timecodeLabel": "03:37-03:38",
+      "textEn": "Okay:well.. Okay.well",
+      "textZh": "好的",
+      "sourceZhIndex": "76",
+      "sourceEnIndexes": [
+        "78",
+        "79"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0077",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 77,
+      "startMs": 218600,
+      "endMs": 220400,
+      "timecodeLabel": "03:38-03:40",
+      "textEn": "Guess I'm your new neighbor. penny",
+      "textZh": "看来你们就是我的新邻居了我叫佩妮",
+      "sourceZhIndex": "77",
+      "sourceEnIndexes": [
+        "80"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0078",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 78,
+      "startMs": 220900,
+      "endMs": 222599,
+      "timecodeLabel": "03:40-03:42",
+      "textEn": "-leonard. sheldon. -hi.",
+      "textZh": "一我是莱纳德他是谢尔顿-你好",
+      "sourceZhIndex": "78",
+      "sourceEnIndexes": [
+        "81"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0079",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 79,
+      "startMs": 222600,
+      "endMs": 224500,
+      "timecodeLabel": "03:42-03:44",
+      "textEn": "-hi. -hi.",
+      "textZh": "一你好-你好",
+      "sourceZhIndex": "79",
+      "sourceEnIndexes": [
+        "82"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0080",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 80,
+      "startMs": 227000,
+      "endMs": 228100,
+      "timecodeLabel": "03:47-03:48",
+      "textEn": "Well..",
+      "textZh": "那么",
+      "sourceZhIndex": "80",
+      "sourceEnIndexes": [
+        "83"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0081",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 81,
+      "startMs": 228900,
+      "endMs": 230300,
+      "timecodeLabel": "03:48-03:50",
+      "textEn": "Welcome to the building.",
+      "textZh": "欢迎成为我们的邻居",
+      "sourceZhIndex": "81",
+      "sourceEnIndexes": [
+        "84"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0082",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 82,
+      "startMs": 230700,
+      "endMs": 232900,
+      "timecodeLabel": "03:50-03:52",
+      "textEn": "Thank you, maybe we can have coffee sometime.",
+      "textZh": "谢谢你我们可以什么时候喝喝咖啡",
+      "sourceZhIndex": "82",
+      "sourceEnIndexes": [
+        "85"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0083",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 83,
+      "startMs": 233000,
+      "endMs": 234800,
+      "timecodeLabel": "03:53-03:54",
+      "textEn": "Great.",
+      "textZh": "很好啊",
+      "sourceZhIndex": "83",
+      "sourceEnIndexes": [
+        "86"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0084",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 84,
+      "startMs": 237900,
+      "endMs": 240200,
+      "timecodeLabel": "03:57-04:00",
+      "textEn": "-well.. bye. -bye.",
+      "textZh": "一那再见-再见",
+      "sourceZhIndex": "84",
+      "sourceEnIndexes": [
+        "87"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0085",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 85,
+      "startMs": 240700,
+      "endMs": 241300,
+      "timecodeLabel": "04:00-04:01",
+      "textEn": "bye.",
+      "textZh": "再见",
+      "sourceZhIndex": "85",
+      "sourceEnIndexes": [
+        "88"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0086",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 86,
+      "startMs": 244100,
+      "endMs": 245800,
+      "timecodeLabel": "04:04-04:05",
+      "textEn": "Should we have invited her for lunch?",
+      "textZh": "我们要不要请她来吃午饭",
+      "sourceZhIndex": "86",
+      "sourceEnIndexes": [
+        "89"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0087",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 87,
+      "startMs": 246300,
+      "endMs": 248900,
+      "timecodeLabel": "04:06-04:08",
+      "textEn": "No.We're gonna start season two of battlestar galactica.",
+      "textZh": "不我们要开始看太空堡垒卡拉狄加第二季",
+      "sourceZhIndex": "87",
+      "sourceEnIndexes": [
+        "90"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0088",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 88,
+      "startMs": 249500,
+      "endMs": 251500,
+      "timecodeLabel": "04:09-04:11",
+      "textEn": "We already watched the season two dvds.",
+      "textZh": "第二季的DVD我们已经看过了",
+      "sourceZhIndex": "88",
+      "sourceEnIndexes": [
+        "91"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0089",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 89,
+      "startMs": 251600,
+      "endMs": 252800,
+      "timecodeLabel": "04:11-04:12",
+      "textEn": "Not with commentary.",
+      "textZh": "但评论音轨还没看",
+      "sourceZhIndex": "89",
+      "sourceEnIndexes": [
+        "92"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0090",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 90,
+      "startMs": 255500,
+      "endMs": 257400,
+      "timecodeLabel": "04:15-04:17",
+      "textEn": "I think we should be good neighbors",
+      "textZh": "我觉得我们应该做个好邻居",
+      "sourceZhIndex": "90",
+      "sourceEnIndexes": [
+        "93"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0091",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 91,
+      "startMs": 257500,
+      "endMs": 259400,
+      "timecodeLabel": "04:17-04:19",
+      "textEn": "And invite her over,make her feel welcome.",
+      "textZh": "邀请她过来做客让她觉得亲切",
+      "sourceZhIndex": "91",
+      "sourceEnIndexes": [
+        "94"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0092",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 92,
+      "startMs": 259900,
+      "endMs": 262600,
+      "timecodeLabel": "04:19-04:22",
+      "textEn": "We never invited louie-slash-louise over.",
+      "textZh": "我们从没请过那个叫路易还是叫路易斯的过",
+      "sourceZhIndex": "92",
+      "sourceEnIndexes": [
+        "95"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0093",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 93,
+      "startMs": 263800,
+      "endMs": 265500,
+      "timecodeLabel": "04:23-04:25",
+      "textEn": "And that was wrong of us.",
+      "textZh": "那是我们的不对",
+      "sourceZhIndex": "93",
+      "sourceEnIndexes": [
+        "96"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0094",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 94,
+      "startMs": 265600,
+      "endMs": 267000,
+      "timecodeLabel": "04:25-04:27",
+      "textEn": "We need to widen our circle.",
+      "textZh": "我们得扩大下我们的朋友圈子",
+      "sourceZhIndex": "94",
+      "sourceEnIndexes": [
+        "97"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0095",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 95,
+      "startMs": 267500,
+      "endMs": 269600,
+      "timecodeLabel": "04:27-04:29",
+      "textEn": "I have a very wide circle.",
+      "textZh": "我的朋友圈子已经很大了",
+      "sourceZhIndex": "95",
+      "sourceEnIndexes": [
+        "98"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0096",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 96,
+      "startMs": 270500,
+      "endMs": 272500,
+      "timecodeLabel": "04:30-04:32",
+      "textEn": "I have 212 friends on myspace.",
+      "textZh": "我的空间上有212个好友",
+      "sourceZhIndex": "96",
+      "sourceEnIndexes": [
+        "99"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0097",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 97,
+      "startMs": 274500,
+      "endMs": 276600,
+      "timecodeLabel": "04:34-04:36",
+      "textEn": "Yes,and you've never met one of them.",
+      "textZh": "不错可他们你一个也没见过",
+      "sourceZhIndex": "97",
+      "sourceEnIndexes": [
+        "100"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0098",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 98,
+      "startMs": 277400,
+      "endMs": 278700,
+      "timecodeLabel": "04:37-04:38",
+      "textEn": "That's the beauty of it.",
+      "textZh": "这正是其美妙之处",
+      "sourceZhIndex": "98",
+      "sourceEnIndexes": [
+        "101"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0099",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 99,
+      "startMs": 281200,
+      "endMs": 282700,
+      "timecodeLabel": "04:41-04:42",
+      "textEn": "I'm gonna invite her over.",
+      "textZh": "我要请她过来",
+      "sourceZhIndex": "99",
+      "sourceEnIndexes": [
+        "102"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0100",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 100,
+      "startMs": 283300,
+      "endMs": 285800,
+      "timecodeLabel": "04:43-04:45",
+      "textEn": "We'll have a nice meal and... chat.",
+      "textZh": "我们可以好好吃一顿然后聊天",
+      "sourceZhIndex": "100",
+      "sourceEnIndexes": [
+        "103"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0101",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 101,
+      "startMs": 286100,
+      "endMs": 288800,
+      "timecodeLabel": "04:46-04:48",
+      "textEn": "Chat? we don't chat. at least not offline.",
+      "textZh": "聊天我们平时不聊天至少下了网不聊",
+      "sourceZhIndex": "101",
+      "sourceEnIndexes": [
+        "104"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0102",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 102,
+      "startMs": 291200,
+      "endMs": 292500,
+      "timecodeLabel": "04:51-04:52",
+      "textEn": "It's not difficult.",
+      "textZh": "这没什么难的",
+      "sourceZhIndex": "102",
+      "sourceEnIndexes": [
+        "105"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0103",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 103,
+      "startMs": 292600,
+      "endMs": 294100,
+      "timecodeLabel": "04:52-04:54",
+      "textEn": "You just listen to what she says",
+      "textZh": "你只要听着她讲些什么",
+      "sourceZhIndex": "103",
+      "sourceEnIndexes": [
+        "106"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0104",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 104,
+      "startMs": 294300,
+      "endMs": 297100,
+      "timecodeLabel": "04:54-04:57",
+      "textEn": "And then you say something appropriate in response.",
+      "textZh": "然后你适当地回应她一些",
+      "sourceZhIndex": "104",
+      "sourceEnIndexes": [
+        "107"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0105",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 105,
+      "startMs": 298500,
+      "endMs": 299500,
+      "timecodeLabel": "04:58-04:59",
+      "textEn": "To what end?",
+      "textZh": "那最后要干什么",
+      "sourceZhIndex": "105",
+      "sourceEnIndexes": [
+        "108"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0106",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 106,
+      "startMs": 301400,
+      "endMs": 303100,
+      "timecodeLabel": "05:01-05:03",
+      "textEn": "Hi... again..",
+      "textZh": "你好又来了",
+      "sourceZhIndex": "106",
+      "sourceEnIndexes": [
+        "109"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0107",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 107,
+      "startMs": 303200,
+      "endMs": 305100,
+      "timecodeLabel": "05:03-05:05",
+      "textEn": "Hi.",
+      "textZh": "你好",
+      "sourceZhIndex": "107",
+      "sourceEnIndexes": [
+        "110"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0108",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 108,
+      "startMs": 306300,
+      "endMs": 307300,
+      "timecodeLabel": "05:06-05:07",
+      "textEn": "Anyway..",
+      "textZh": "那个",
+      "sourceZhIndex": "108",
+      "sourceEnIndexes": [
+        "111"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0109",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 109,
+      "startMs": 307900,
+      "endMs": 309500,
+      "timecodeLabel": "05:07-05:09",
+      "textEn": "We brought home indian food.",
+      "textZh": "我们带了印度菜回来",
+      "sourceZhIndex": "109",
+      "sourceEnIndexes": [
+        "112"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0110",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 110,
+      "startMs": 310500,
+      "endMs": 311500,
+      "timecodeLabel": "05:10-05:11",
+      "textEn": "And..",
+      "textZh": "然后",
+      "sourceZhIndex": "110",
+      "sourceEnIndexes": [
+        "113"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0111",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 111,
+      "startMs": 312000,
+      "endMs": 314100,
+      "timecodeLabel": "05:12-05:14",
+      "textEn": "I know that moving can be stressful",
+      "textZh": "我知道搬家可能会很累",
+      "sourceZhIndex": "111",
+      "sourceEnIndexes": [
+        "114"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0112",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 112,
+      "startMs": 314300,
+      "endMs": 316500,
+      "timecodeLabel": "05:14-05:16",
+      "textEn": "And I find that when I'm undergoing stress,",
+      "textZh": "并且我发现当我身心俱疲时",
+      "sourceZhIndex": "112",
+      "sourceEnIndexes": [
+        "115"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0113",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 113,
+      "startMs": 316600,
+      "endMs": 319700,
+      "timecodeLabel": "05:16-05:19",
+      "textEn": "That good food and company can have a comforting effect.",
+      "textZh": "美食和伙伴能让我感觉很舒坦",
+      "sourceZhIndex": "113",
+      "sourceEnIndexes": [
+        "116"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0114",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 114,
+      "startMs": 320900,
+      "endMs": 324100,
+      "timecodeLabel": "05:20-05:24",
+      "textEn": "Also curry is a natural laxative,and I don't have to tell you",
+      "textZh": "还有咖喱本身有通便功效我想我不必再说",
+      "sourceZhIndex": "114",
+      "sourceEnIndexes": [
+        "118"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0115",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 115,
+      "startMs": 324200,
+      "endMs": 326900,
+      "timecodeLabel": "05:24-05:26",
+      "textEn": "That,you know,a clean colon is just.",
+      "textZh": "你知道如果大肠通畅",
+      "sourceZhIndex": "115",
+      "sourceEnIndexes": [
+        "119"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0116",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 116,
+      "startMs": 327200,
+      "endMs": 329000,
+      "timecodeLabel": "05:27-05:29",
+      "textEn": "One less thing to worry about.",
+      "textZh": "那又可以少一件操心事了",
+      "sourceZhIndex": "116",
+      "sourceEnIndexes": [
+        "120"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0117",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 117,
+      "startMs": 330700,
+      "endMs": 333600,
+      "timecodeLabel": "05:30-05:33",
+      "textEn": "I'm no expert,but I believe in the context of a luncheon invitation",
+      "textZh": "面我不在行不过我相信如果是邀请别人吃",
+      "sourceZhIndex": "117",
+      "sourceEnIndexes": [
+        "121"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0118",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 118,
+      "startMs": 333700,
+      "endMs": 336200,
+      "timecodeLabel": "05:33-05:36",
+      "textEn": "You might want to skip the reference to bowel movements.",
+      "textZh": "你最好不要说些肠运动的事",
+      "sourceZhIndex": "118",
+      "sourceEnIndexes": [
+        "122"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0119",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 119,
+      "startMs": 336800,
+      "endMs": 338500,
+      "timecodeLabel": "05:36-05:38",
+      "textEn": "You're inviting me over to eat?",
+      "textZh": "你们是在邀请我过去吃饭",
+      "sourceZhIndex": "119",
+      "sourceEnIndexes": [
+        "123"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0120",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 120,
+      "startMs": 339600,
+      "endMs": 340100,
+      "timecodeLabel": "05:39-05:40",
+      "textEn": "Yes.",
+      "textZh": "是的",
+      "sourceZhIndex": "120",
+      "sourceEnIndexes": [
+        "124"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0121",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 121,
+      "startMs": 340900,
+      "endMs": 342900,
+      "timecodeLabel": "05:40-05:42",
+      "textEn": "Oh,that's so nice. I'd love to.",
+      "textZh": "你们真好我很乐意",
+      "sourceZhIndex": "121",
+      "sourceEnIndexes": [
+        "125"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0122",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 122,
+      "startMs": 343100,
+      "endMs": 343700,
+      "timecodeLabel": "05:43-05:43",
+      "textEn": "Great.",
+      "textZh": "太好了",
+      "sourceZhIndex": "122",
+      "sourceEnIndexes": [
+        "126"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0123",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 123,
+      "startMs": 343800,
+      "endMs": 347099,
+      "timecodeLabel": "05:43-05:47",
+      "textEn": "Our whole universe was in a hot, dense state",
+      "textZh": "我们的宇宙曾经超热又超密",
+      "sourceZhIndex": "123",
+      "sourceEnIndexes": [
+        "127"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0124",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 124,
+      "startMs": 347100,
+      "endMs": 351099,
+      "timecodeLabel": "05:47-05:51",
+      "textEn": "Then nearly 14 billion years ago expansion started. Wait!",
+      "textZh": "到大约140亿年前的某一天宇宙膨胀开",
+      "sourceZhIndex": "124",
+      "sourceEnIndexes": [
+        "128"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0125",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 125,
+      "startMs": 351100,
+      "endMs": 352300,
+      "timecodeLabel": "05:51-05:52",
+      "textEn": "The Earth began to cool -TheEarth began-to cool,",
+      "textZh": "，地球开始冷却！",
+      "sourceZhIndex": "125",
+      "sourceEnIndexes": [
+        "129",
+        "130"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0126",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 126,
+      "startMs": 352300,
+      "endMs": 355300,
+      "timecodeLabel": "05:52-05:55",
+      "textEn": "The autotrophs began todrool-Neanderthals developed tools Theautotiophs began to drool, Neanderthals developed tools",
+      "textZh": "自养生物开始发育尼安德塔人发明工具",
+      "sourceZhIndex": "126",
+      "sourceEnIndexes": [
+        "131",
+        "132"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0127",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 127,
+      "startMs": 355300,
+      "endMs": 357100,
+      "timecodeLabel": "05:55-05:57",
+      "textEn": "We built-the Wall We built the pyramids We built-the Wall-We builtithe pyramids.",
+      "textZh": "我们建了长城我们建了金学塔",
+      "sourceZhIndex": "127",
+      "sourceEnIndexes": [
+        "133",
+        "134"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0128",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 128,
+      "startMs": 357700,
+      "endMs": 358099,
+      "timecodeLabel": "05:57-05:58",
+      "textEn": null,
+      "textZh": "酸学科学历速解开国",
+      "sourceZhIndex": "128",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0129",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 129,
+      "startMs": 358100,
+      "endMs": 358500,
+      "timecodeLabel": "05:58-05:58",
+      "textEn": null,
+      "textZh": "数学科学历更解开了健国",
+      "sourceZhIndex": "129",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0130",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 130,
+      "startMs": 358600,
+      "endMs": 359500,
+      "timecodeLabel": "05:58-05:59",
+      "textEn": null,
+      "textZh": "数学科字质史解开了谜团",
+      "sourceZhIndex": "130",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0131",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 131,
+      "startMs": 360400,
+      "endMs": 361700,
+      "timecodeLabel": "06:00-06:01",
+      "textEn": ". That all started with a big bang",
+      "textZh": "一切都始于大闻炸",
+      "sourceZhIndex": "131",
+      "sourceEnIndexes": [
+        "135"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0132",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 132,
+      "startMs": 362500,
+      "endMs": 363400,
+      "timecodeLabel": "06:02-06:03",
+      "textEn": "Bang!",
+      "textZh": "EUUOA 炸",
+      "sourceZhIndex": "132",
+      "sourceEnIndexes": [
+        "136"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0133",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 133,
+      "startMs": 362500,
+      "endMs": 363900,
+      "timecodeLabel": "06:02-06:03",
+      "textEn": "Bang!",
+      "textZh": "KOG",
+      "sourceZhIndex": "133",
+      "sourceEnIndexes": [
+        "136"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0134",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 134,
+      "startMs": 364200,
+      "endMs": 364500,
+      "timecodeLabel": "06:04-06:04",
+      "textEn": null,
+      "textZh": "THOC",
+      "sourceZhIndex": "134",
+      "sourceEnIndexes": [],
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0135",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 135,
+      "startMs": 366300,
+      "endMs": 368100,
+      "timecodeLabel": "06:06-06:08",
+      "textEn": "Okay,make yourself at home.",
+      "textZh": "好了就当在自己家一样",
+      "sourceZhIndex": "135",
+      "sourceEnIndexes": [
+        "138"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0136",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 136,
+      "startMs": 368400,
+      "endMs": 369400,
+      "timecodeLabel": "06:08-06:09",
+      "textEn": "Thank you.",
+      "textZh": "谢谢",
+      "sourceZhIndex": "136",
+      "sourceEnIndexes": [
+        "139"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0137",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 137,
+      "startMs": 369700,
+      "endMs": 370900,
+      "timecodeLabel": "06:09-06:10",
+      "textEn": "You're very welcome.",
+      "textZh": "不用谢",
+      "sourceZhIndex": "137",
+      "sourceEnIndexes": [
+        "140"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0138",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 138,
+      "startMs": 375200,
+      "endMs": 377000,
+      "timecodeLabel": "06:15-06:17",
+      "textEn": "This looks like some serious stuff.",
+      "textZh": "这些东西看上去真深奥啊",
+      "sourceZhIndex": "138",
+      "sourceEnIndexes": [
+        "141"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0139",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 139,
+      "startMs": 377100,
+      "endMs": 380200,
+      "timecodeLabel": "06:17-06:20",
+      "textEn": "-leonard,did you do this? actually,that's my work.",
+      "textZh": "-莱纳德这是你写的-不这是我的",
+      "sourceZhIndex": "139",
+      "sourceEnIndexes": [
+        "142"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0140",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 140,
+      "startMs": 382100,
+      "endMs": 384600,
+      "timecodeLabel": "06:22-06:24",
+      "textEn": "Yeah. wellit's just some quantum mechanics",
+      "textZh": "不错只是一些量子力学而已",
+      "sourceZhIndex": "140",
+      "sourceEnIndexes": [
+        "143"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0141",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 141,
+      "startMs": 384800,
+      "endMs": 387000,
+      "timecodeLabel": "06:24-06:27",
+      "textEn": "With a little string theory doodling around the edges.",
+      "textZh": "边上还随便写了一点点弦理论",
+      "sourceZhIndex": "141",
+      "sourceEnIndexes": [
+        "144"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0142",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 142,
+      "startMs": 387100,
+      "endMs": 388600,
+      "timecodeLabel": "06:27-06:28",
+      "textEn": "That part there,that's just a joke.",
+      "textZh": "那部分，是我开的玩笑",
+      "sourceZhIndex": "142",
+      "sourceEnIndexes": [
+        "145"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0143",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 143,
+      "startMs": 388700,
+      "endMs": 391600,
+      "timecodeLabel": "06:28-06:31",
+      "textEn": "It's a spoof of the born-oppenheimer approximation.",
+      "textZh": "讽刺下波恩-奥本海默近似",
+      "sourceZhIndex": "143",
+      "sourceEnIndexes": [
+        "146"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0144",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 144,
+      "startMs": 393000,
+      "endMs": 396300,
+      "timecodeLabel": "06:33-06:36",
+      "textEn": "So you're like one of those beautiful mind genius guys.",
+      "textZh": "这么说你就像是美丽心灵里那种天才一样",
+      "sourceZhIndex": "144",
+      "sourceEnIndexes": [
+        "147"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0145",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 145,
+      "startMs": 396500,
+      "endMs": 397900,
+      "timecodeLabel": "06:36-06:37",
+      "textEn": "Yeah",
+      "textZh": "770",
+      "sourceZhIndex": "145",
+      "sourceEnIndexes": [
+        "148"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0146",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 146,
+      "startMs": 397400,
+      "endMs": 398099,
+      "timecodeLabel": "06:37-06:38",
+      "textEn": "Yeah",
+      "textZh": "7是吧",
+      "sourceZhIndex": "146",
+      "sourceEnIndexes": [
+        "148"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0147",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 147,
+      "startMs": 397400,
+      "endMs": 399400,
+      "timecodeLabel": "06:37-06:39",
+      "textEn": "Yeah",
+      "textZh": "07",
+      "sourceZhIndex": "147",
+      "sourceEnIndexes": [
+        "148"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0148",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 148,
+      "startMs": 400000,
+      "endMs": 402300,
+      "timecodeLabel": "06:40-06:42",
+      "textEn": "-this is really impressive. -i have a board",
+      "textZh": "一真让人赞叹一我也有块板",
+      "sourceZhIndex": "148",
+      "sourceEnIndexes": [
+        "149"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0149",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 149,
+      "startMs": 402400,
+      "endMs": 404500,
+      "timecodeLabel": "06:42-06:44",
+      "textEn": "If you like boards,this is my board.",
+      "textZh": "如果你喜欢板这块是我的",
+      "sourceZhIndex": "149",
+      "sourceEnIndexes": [
+        "150"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0150",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 150,
+      "startMs": 405600,
+      "endMs": 406800,
+      "timecodeLabel": "06:45-06:46",
+      "textEn": "Holy smokes.",
+      "textZh": "我的天啊",
+      "sourceZhIndex": "150",
+      "sourceEnIndexes": [
+        "151"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0151",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 151,
+      "startMs": 407000,
+      "endMs": 408400,
+      "timecodeLabel": "06:47-06:48",
+      "textEn": "If by \"holy smokes\".you mean",
+      "textZh": "如果你说我的天啊是想",
+      "sourceZhIndex": "151",
+      "sourceEnIndexes": [
+        "152"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0152",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 152,
+      "startMs": 408600,
+      "endMs": 410400,
+      "timecodeLabel": "06:48-06:50",
+      "textEn": "A derivative restatement of the kind of stuff",
+      "textZh": "再一次强调说你能在任何一个麻省理工的",
+      "sourceZhIndex": "152",
+      "sourceEnIndexes": [
+        "153"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0153",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 153,
+      "startMs": 410600,
+      "endMs": 413600,
+      "timecodeLabel": "06:50-06:53",
+      "textEn": "You can find scribbled on the wallof any men's room at mit,sure.",
+      "textZh": "男生寝室墙上发现那些涂鸦那一点没错",
+      "sourceZhIndex": "153",
+      "sourceEnIndexes": [
+        "154"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0154",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 154,
+      "startMs": 414500,
+      "endMs": 415800,
+      "timecodeLabel": "06:54-06:55",
+      "textEn": "-what? -come on.",
+      "textZh": "一什么-得了吧",
+      "sourceZhIndex": "154",
+      "sourceEnIndexes": [
+        "156"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0155",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 155,
+      "startMs": 416000,
+      "endMs": 419600,
+      "timecodeLabel": "06:56-06:59",
+      "textEn": "Who hasn't seen this differential below \"here I sit.broken-hearted?",
+      "textZh": "看到那微分上面写着我打住了心碎了算不",
+      "sourceZhIndex": "155",
+      "sourceEnIndexes": [
+        "157",
+        "158"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0156",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 156,
+      "startMs": 416600,
+      "endMs": 419600,
+      "timecodeLabel": "06:56-06:59",
+      "textEn": "Who hasn't seen this differential below \"here I sit.broken-hearted?",
+      "textZh": "看到那微分上写着我打住了碎了算不",
+      "sourceZhIndex": "156",
+      "sourceEnIndexes": [
+        "158"
+      ],
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "bbt-s01e01-line-0157",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 157,
+      "startMs": 420000,
+      "endMs": 422500,
+      "timecodeLabel": "07:00-07:02",
+      "textEn": "At least I didn't have to invent 26 dimensions",
+      "textZh": "至少我不会为了解决个数学问题",
+      "sourceZhIndex": "157",
+      "sourceEnIndexes": [
+        "159"
+      ],
+      "qualityFlags": []
+    },
+    {
+      "id": "bbt-s01e01-line-0158",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "lineIndex": 158,
+      "startMs": 422600,
+      "endMs": 423900,
+      "timecodeLabel": "07:02-07:03",
+      "textEn": "Just to make the math come out.",
+      "textZh": "去发明个什么26维出来",
+      "sourceZhIndex": "158",
+      "sourceEnIndexes": [
+        "160"
+      ],
+      "qualityFlags": []
+    }
+  ],
+  "subtitleSegments": [
+    {
+      "id": "segment-0001",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 300,
+      "endMs": 10300,
+      "capturedAtMs": 5300,
+      "timecodeLabel": "00:00-00:10",
+      "durationMs": 10000,
+      "lineIndexes": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0001",
+        "bbt-s01e01-line-0002",
+        "bbt-s01e01-line-0003",
+        "bbt-s01e01-line-0004",
+        "bbt-s01e01-line-0006"
+      ],
+      "textEn": "However,if it's observed after it's left the plane But before it hits its target, it won't have gone through both slits. II1555Agreed.what's your point?XA 1 There's no point,I just think it's a good idea for a t-shirt.",
+      "textZh": "但如果它是在离开平面后 在击中目标物之前被观测到 那它不会同时通过两个狭缝 没错你想说什么 m口心 TA 没什么我只是觉得这个主意放在T恤上不镜",
+      "coverImage": "material/covers/segment-0001.webp",
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "segment-0002",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 16700,
+      "endMs": 30900,
+      "capturedAtMs": 23800,
+      "timecodeLabel": "00:16-00:30",
+      "durationMs": 14200,
+      "lineIndexes": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0007",
+        "bbt-s01e01-line-0008",
+        "bbt-s01e01-line-0009",
+        "bbt-s01e01-line-0010",
+        "bbt-s01e01-line-0011",
+        "bbt-s01e01-line-0012"
+      ],
+      "textEn": "excuse me. -hang on One across is \"aegean.\" One across is \"aegean.\" Eight down is \"nabokov.\" 26 across is \"mcm.\" 14 down is... move your finger.",
+      "textZh": "-您好-稍等 Johnny Galecki 横1是爱琴海 竖8是纳巴科夫 横26MCM Jim Parsonse",
+      "coverImage": "material/covers/segment-0002.webp",
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "segment-0003",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 28600,
+      "endMs": 41800,
+      "capturedAtMs": 35200,
+      "timecodeLabel": "00:28-00:41",
+      "durationMs": 13200,
+      "lineIndexes": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0013",
+        "bbt-s01e01-line-0014",
+        "bbt-s01e01-line-0015",
+        "bbt-s01e01-line-0016",
+        "bbt-s01e01-line-0017"
+      ],
+      "textEn": "14 down is... move your finger. \"phylum\" which makes 14 across \"port-au-prince\" See,\"papa doc's capitol idea,\" that's \"port-au-prince.\" See,\"papa doc's capitol idea,\" that's \"port-au-prince.\" Haiti.",
+      "textZh": "竖14是你手挡住了 是门所以说横十四是太子港 尔看这是海地总统绰号提示了所以是太子 尔看这是海地总统绰号提示了所以是太子 在海地",
+      "coverImage": "material/covers/segment-0003.webp",
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "segment-0004",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 43300,
+      "endMs": 58700,
+      "capturedAtMs": 51000,
+      "timecodeLabel": "00:43-00:58",
+      "durationMs": 15400,
+      "lineIndexes": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0018",
+        "bbt-s01e01-line-0019",
+        "bbt-s01e01-line-0020",
+        "bbt-s01e01-line-0021",
+        "bbt-s01e01-line-0022"
+      ],
+      "textEn": "-can I help you?-yes. Is this the high-iq sperm bank? Is this the high-iq sperm bank? If you have to ask,maybe you shouldn't be here. I think this is theplace.",
+      "textZh": "需要帮忙吗是的 Simon Herberp 这里是高智商**库吗 如果这还要问的话那你可能不该来这 Kunal Nayyar",
+      "coverImage": "material/covers/segment-0004.webp",
+      "qualityFlags": [
+        "large_time_delta",
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "segment-0005",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 59200,
+      "endMs": 60600,
+      "capturedAtMs": 59900,
+      "timecodeLabel": "00:59-01:00",
+      "durationMs": 1400,
+      "lineIndexes": [
+        23
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0023"
+      ],
+      "textEn": "-fill these out. -thank you.",
+      "textZh": "一把表格填了-谢谢",
+      "coverImage": "material/covers/segment-0005.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0006",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 69400,
+      "endMs": 83700,
+      "capturedAtMs": 76550,
+      "timecodeLabel": "01:09-01:23",
+      "durationMs": 14300,
+      "lineIndexes": [
+        27,
+        28,
+        29
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0027",
+        "bbt-s01e01-line-0028",
+        "bbt-s01e01-line-0029"
+      ],
+      "textEn": "Leonard,I don't think I can do this. What,are you kidding? you're a semi-pro.",
+      "textZh": "人 H 莱纳德我觉得我做不到 开什么玩笑你都是半职业选手了",
+      "coverImage": "material/covers/segment-0006.webp",
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "segment-0007",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 84800,
+      "endMs": 98300,
+      "capturedAtMs": 91550,
+      "timecodeLabel": "01:24-01:38",
+      "durationMs": 13500,
+      "lineIndexes": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0030",
+        "bbt-s01e01-line-0031",
+        "bbt-s01e01-line-0032",
+        "bbt-s01e01-line-0033",
+        "bbt-s01e01-line-0034",
+        "bbt-s01e01-line-0035"
+      ],
+      "textEn": "No. we.are committing genetic fraud. There's no guarantee that our sperm is going to generate high-iqOffspring. Think about that. I have a sister with the same basic dna mix Who hostesses at-fuddruckers. Sheldon,this was your idea.",
+      "textZh": "不是的我们这是在犯基因欺诈罪 我们的**并不能保证 将来就能生出高智商的后代 你想想我姐姐和我的DNA结构相同 可她只是快餐店的女服务生 谢尔顿当初是你要来的",
+      "coverImage": "material/covers/segment-0007.webp",
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "segment-0008",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 98600,
+      "endMs": 111800,
+      "capturedAtMs": 105200,
+      "timecodeLabel": "01:38-01:51",
+      "durationMs": 13200,
+      "lineIndexes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0036",
+        "bbt-s01e01-line-0037",
+        "bbt-s01e01-line-0038",
+        "bbt-s01e01-line-0039",
+        "bbt-s01e01-line-0040",
+        "bbt-s01e01-line-0041"
+      ],
+      "textEn": "A little extra money to get fractional t-1 bandwidth in the apartment. I know,and I do yearn for faster downloads. But there's some poor woman who's gonna pin her hopes on my sperm. What if she winds up with a toddler who doesn't know if he should use",
+      "textZh": "这点补贴能让我们 在寓所里拥有分式T-1带宽 我知道我的确渴望更快的下载速度 但那些可怜的女人们 会把希望寄托在我**上的 如果她最后发现那小不点连曲线下面积",
+      "coverImage": "material/covers/segment-0008.webp",
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "segment-0009",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 111900,
+      "endMs": 126800,
+      "capturedAtMs": 119350,
+      "timecodeLabel": "01:51-02:06",
+      "durationMs": 14900,
+      "lineIndexes": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0042",
+        "bbt-s01e01-line-0043",
+        "bbt-s01e01-line-0044",
+        "bbt-s01e01-line-0045",
+        "bbt-s01e01-line-0046",
+        "bbt-s01e01-line-0047"
+      ],
+      "textEn": "An integral or a differential to solve the area under a curve? -i'm sure she'll still love him. -i wouldn't. Well,what do you want to do? I want to leave. OK What's the protocol for leaving?",
+      "textZh": "该用积分还是微分算都不知道她会怎么想 一我肯定她还是会爱他的-我不会 你现在想怎么样 我想走了 好吧 该怎么跟她说呢",
+      "coverImage": "material/covers/segment-0009.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0010",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 127200,
+      "endMs": 133100,
+      "capturedAtMs": 130150,
+      "timecodeLabel": "02:07-02:13",
+      "durationMs": 5900,
+      "lineIndexes": [
+        48,
+        49
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0048",
+        "bbt-s01e01-line-0049"
+      ],
+      "textEn": "I don't know.. I've never reneged on a proffer of sperm before Let's try just walking out.",
+      "textZh": "找不知道我以前从来没在捐献**时中途走人 我们就直接走吧",
+      "coverImage": "material/covers/segment-0010.webp",
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "segment-0011",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 145500,
+      "endMs": 159300,
+      "capturedAtMs": 152400,
+      "timecodeLabel": "02:25-02:39",
+      "durationMs": 13800,
+      "lineIndexes": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0051",
+        "bbt-s01e01-line-0052",
+        "bbt-s01e01-line-0053",
+        "bbt-s01e01-line-0054",
+        "bbt-s01e01-line-0055"
+      ],
+      "textEn": "-bye. -bye. nice meeting you. Are you still mad about the sperm bank? No. You want to hear an interesting thing about stairs? Not really.",
+      "textZh": "-再见一再见很高兴见到你 你还在为那个**库的事生气吗 没有 你想不想听有关楼梯的有趣事情 不太想",
+      "coverImage": "material/covers/segment-0011.webp",
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "id": "segment-0012",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 160000,
+      "endMs": 173000,
+      "capturedAtMs": 166500,
+      "timecodeLabel": "02:40-02:53",
+      "durationMs": 13000,
+      "lineIndexes": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0056",
+        "bbt-s01e01-line-0057",
+        "bbt-s01e01-line-0058",
+        "bbt-s01e01-line-0059",
+        "bbt-s01e01-line-0060"
+      ],
+      "textEn": "If the height of a single step is off by as little as two millimeters, -most people will trip. -i don't care. Two mili... that doesn't seem right. No,it's true,I did a series of experiments when I was 12 My father broke his clavicle.",
+      "textZh": "果有一格阶梯的高度存在哪怕两毫米的微小 一大多数人会被绊倒-跟我无关 两毫那不太可能吧 不是真的我12岁时做过一系列试验 我爸爸还摔断了锁骨",
+      "coverImage": "material/covers/segment-0012.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0013",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 174400,
+      "endMs": 179000,
+      "capturedAtMs": 176700,
+      "timecodeLabel": "02:54-02:59",
+      "durationMs": 4600,
+      "lineIndexes": [
+        61,
+        62
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0061",
+        "bbt-s01e01-line-0062"
+      ],
+      "textEn": "Is that why they sent you to boarding school? No. that was a result of my work with lasers.",
+      "textZh": "你就是因为这个被他们送去寄宿学校的 不是是因为我那些关于激光的试验",
+      "coverImage": "material/covers/segment-0013.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0014",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 185000,
+      "endMs": 200200,
+      "capturedAtMs": 192600,
+      "timecodeLabel": "03:05-03:20",
+      "durationMs": 15200,
+      "lineIndexes": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0064",
+        "bbt-s01e01-line-0065",
+        "bbt-s01e01-line-0066",
+        "bbt-s01e01-line-0067",
+        "bbt-s01e01-line-0068",
+        "bbt-s01e01-line-0069"
+      ],
+      "textEn": "New neighbor? Evidently. Significant improvement over the old neighbor. 200-pound transvestite with a skin condition? Yes,she is. W-ohhi-hiK oh.hi.=hi.",
+      "textZh": "这是新邻居 很明显 比起上一个的水准真是有显著提高 那个体重200磅有皮肤问题的异装癖者 那是没错 一你好一你好",
+      "coverImage": "material/covers/segment-0014.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0015",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 201800,
+      "endMs": 216000,
+      "capturedAtMs": 208900,
+      "timecodeLabel": "03:21-03:36",
+      "durationMs": 14200,
+      "lineIndexes": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0070",
+        "bbt-s01e01-line-0071",
+        "bbt-s01e01-line-0072",
+        "bbt-s01e01-line-0073",
+        "bbt-s01e01-line-0074",
+        "bbt-s01e01-line-0075"
+      ],
+      "textEn": "rOLVCOCY We don't mean to interrupt. we live across the hall Oh,that'snice. We don't live together. I mean... We live together, But in separate,heterosexual bedrooms.",
+      "textZh": "你好 我们不想打搅你我们就住你对面 你们真好啊 我们不是住在一起我是说 我们是住在一起 不过是在分开的异性恋的卧室里",
+      "coverImage": "material/covers/segment-0015.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0016",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 217400,
+      "endMs": 230300,
+      "capturedAtMs": 223850,
+      "timecodeLabel": "03:37-03:50",
+      "durationMs": 12900,
+      "lineIndexes": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0076",
+        "bbt-s01e01-line-0077",
+        "bbt-s01e01-line-0078",
+        "bbt-s01e01-line-0079",
+        "bbt-s01e01-line-0080",
+        "bbt-s01e01-line-0081"
+      ],
+      "textEn": "Okay:well.. Okay.well Guess I'm your new neighbor. penny -leonard. sheldon. -hi. -hi. -hi. Well.. Welcome to the building.",
+      "textZh": "好的 看来你们就是我的新邻居了我叫佩妮 一我是莱纳德他是谢尔顿-你好 一你好-你好 那么 欢迎成为我们的邻居",
+      "coverImage": "material/covers/segment-0016.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0017",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 230700,
+      "endMs": 245800,
+      "capturedAtMs": 238250,
+      "timecodeLabel": "03:50-04:05",
+      "durationMs": 15100,
+      "lineIndexes": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0082",
+        "bbt-s01e01-line-0083",
+        "bbt-s01e01-line-0084",
+        "bbt-s01e01-line-0085",
+        "bbt-s01e01-line-0086"
+      ],
+      "textEn": "Thank you, maybe we can have coffee sometime. Great. -well.. bye. -bye. bye. Should we have invited her for lunch?",
+      "textZh": "谢谢你我们可以什么时候喝喝咖啡 很好啊 一那再见-再见 再见 我们要不要请她来吃午饭",
+      "coverImage": "material/covers/segment-0017.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0018",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 246300,
+      "endMs": 259400,
+      "capturedAtMs": 252850,
+      "timecodeLabel": "04:06-04:19",
+      "durationMs": 13100,
+      "lineIndexes": [
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0087",
+        "bbt-s01e01-line-0088",
+        "bbt-s01e01-line-0089",
+        "bbt-s01e01-line-0090",
+        "bbt-s01e01-line-0091"
+      ],
+      "textEn": "No.We're gonna start season two of battlestar galactica. We already watched the season two dvds. Not with commentary. I think we should be good neighbors And invite her over,make her feel welcome.",
+      "textZh": "不我们要开始看太空堡垒卡拉狄加第二季 第二季的DVD我们已经看过了 但评论音轨还没看 我觉得我们应该做个好邻居 邀请她过来做客让她觉得亲切",
+      "coverImage": "material/covers/segment-0018.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0019",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 259900,
+      "endMs": 272500,
+      "capturedAtMs": 266200,
+      "timecodeLabel": "04:19-04:32",
+      "durationMs": 12600,
+      "lineIndexes": [
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0092",
+        "bbt-s01e01-line-0093",
+        "bbt-s01e01-line-0094",
+        "bbt-s01e01-line-0095",
+        "bbt-s01e01-line-0096"
+      ],
+      "textEn": "We never invited louie-slash-louise over. And that was wrong of us. We need to widen our circle. I have a very wide circle. I have 212 friends on myspace.",
+      "textZh": "我们从没请过那个叫路易还是叫路易斯的过 那是我们的不对 我们得扩大下我们的朋友圈子 我的朋友圈子已经很大了 我的空间上有212个好友",
+      "coverImage": "material/covers/segment-0019.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0020",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 274500,
+      "endMs": 288800,
+      "capturedAtMs": 281650,
+      "timecodeLabel": "04:34-04:48",
+      "durationMs": 14300,
+      "lineIndexes": [
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0097",
+        "bbt-s01e01-line-0098",
+        "bbt-s01e01-line-0099",
+        "bbt-s01e01-line-0100",
+        "bbt-s01e01-line-0101"
+      ],
+      "textEn": "Yes,and you've never met one of them. That's the beauty of it. I'm gonna invite her over. We'll have a nice meal and... chat. Chat? we don't chat. at least not offline.",
+      "textZh": "不错可他们你一个也没见过 这正是其美妙之处 我要请她过来 我们可以好好吃一顿然后聊天 聊天我们平时不聊天至少下了网不聊",
+      "coverImage": "material/covers/segment-0020.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0021",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 291200,
+      "endMs": 305100,
+      "capturedAtMs": 298150,
+      "timecodeLabel": "04:51-05:05",
+      "durationMs": 13900,
+      "lineIndexes": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0102",
+        "bbt-s01e01-line-0103",
+        "bbt-s01e01-line-0104",
+        "bbt-s01e01-line-0105",
+        "bbt-s01e01-line-0106",
+        "bbt-s01e01-line-0107"
+      ],
+      "textEn": "It's not difficult. You just listen to what she says And then you say something appropriate in response. To what end? Hi... again.. Hi.",
+      "textZh": "这没什么难的 你只要听着她讲些什么 然后你适当地回应她一些 那最后要干什么 你好又来了 你好",
+      "coverImage": "material/covers/segment-0021.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0022",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 306300,
+      "endMs": 319700,
+      "capturedAtMs": 313000,
+      "timecodeLabel": "05:06-05:19",
+      "durationMs": 13400,
+      "lineIndexes": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0108",
+        "bbt-s01e01-line-0109",
+        "bbt-s01e01-line-0110",
+        "bbt-s01e01-line-0111",
+        "bbt-s01e01-line-0112",
+        "bbt-s01e01-line-0113"
+      ],
+      "textEn": "Anyway.. We brought home indian food. And.. I know that moving can be stressful And I find that when I'm undergoing stress, That good food and company can have a comforting effect.",
+      "textZh": "那个 我们带了印度菜回来 然后 我知道搬家可能会很累 并且我发现当我身心俱疲时 美食和伙伴能让我感觉很舒坦",
+      "coverImage": "material/covers/segment-0022.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0023",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 320900,
+      "endMs": 336200,
+      "capturedAtMs": 328550,
+      "timecodeLabel": "05:20-05:36",
+      "durationMs": 15300,
+      "lineIndexes": [
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0114",
+        "bbt-s01e01-line-0115",
+        "bbt-s01e01-line-0116",
+        "bbt-s01e01-line-0117",
+        "bbt-s01e01-line-0118"
+      ],
+      "textEn": "Also curry is a natural laxative,and I don't have to tell you That,you know,a clean colon is just. One less thing to worry about. I'm no expert,but I believe in the context of a luncheon invitation You might want to skip the reference to bowel movements.",
+      "textZh": "还有咖喱本身有通便功效我想我不必再说 你知道如果大肠通畅 那又可以少一件操心事了 面我不在行不过我相信如果是邀请别人吃 你最好不要说些肠运动的事",
+      "coverImage": "material/covers/segment-0023.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0024",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 336800,
+      "endMs": 351099,
+      "capturedAtMs": 343949,
+      "timecodeLabel": "05:36-05:51",
+      "durationMs": 14299,
+      "lineIndexes": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0119",
+        "bbt-s01e01-line-0120",
+        "bbt-s01e01-line-0121",
+        "bbt-s01e01-line-0122",
+        "bbt-s01e01-line-0123",
+        "bbt-s01e01-line-0124"
+      ],
+      "textEn": "You're inviting me over to eat? Yes. Oh,that's so nice. I'd love to. Great. Our whole universe was in a hot, dense state Then nearly 14 billion years ago expansion started. Wait!",
+      "textZh": "你们是在邀请我过去吃饭 是的 你们真好我很乐意 太好了 我们的宇宙曾经超热又超密 到大约140亿年前的某一天宇宙膨胀开",
+      "coverImage": "material/covers/segment-0024.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0025",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 351100,
+      "endMs": 359500,
+      "capturedAtMs": 355300,
+      "timecodeLabel": "05:51-05:59",
+      "durationMs": 8400,
+      "lineIndexes": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0125",
+        "bbt-s01e01-line-0126",
+        "bbt-s01e01-line-0127",
+        "bbt-s01e01-line-0128",
+        "bbt-s01e01-line-0129",
+        "bbt-s01e01-line-0130"
+      ],
+      "textEn": "The Earth began to cool -TheEarth began-to cool, The autotrophs began todrool-Neanderthals developed tools Theautotiophs began to drool, Neanderthals developed tools We built-the Wall We built the pyramids We built-the Wall-We builtithe pyramids.",
+      "textZh": "，地球开始冷却！ 自养生物开始发育尼安德塔人发明工具 我们建了长城我们建了金学塔 酸学科学历速解开国 数学科学历更解开了健国 数学科字质史解开了谜团",
+      "coverImage": "material/covers/segment-0025.webp",
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "id": "segment-0026",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 360400,
+      "endMs": 370900,
+      "capturedAtMs": 365650,
+      "timecodeLabel": "06:00-06:10",
+      "durationMs": 10500,
+      "lineIndexes": [
+        131,
+        132,
+        133,
+        135,
+        136,
+        137
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0131",
+        "bbt-s01e01-line-0132",
+        "bbt-s01e01-line-0133",
+        "bbt-s01e01-line-0135",
+        "bbt-s01e01-line-0136",
+        "bbt-s01e01-line-0137"
+      ],
+      "textEn": ". That all started with a big bang Bang! Bang! Okay,make yourself at home. Thank you. You're very welcome.",
+      "textZh": "一切都始于大闻炸 EUUOA 炸 KOG 好了就当在自己家一样 谢谢 不用谢",
+      "coverImage": "material/covers/segment-0026.webp",
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "segment-0027",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 375200,
+      "endMs": 388600,
+      "capturedAtMs": 381900,
+      "timecodeLabel": "06:15-06:28",
+      "durationMs": 13400,
+      "lineIndexes": [
+        138,
+        139,
+        140,
+        141,
+        142
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0138",
+        "bbt-s01e01-line-0139",
+        "bbt-s01e01-line-0140",
+        "bbt-s01e01-line-0141",
+        "bbt-s01e01-line-0142"
+      ],
+      "textEn": "This looks like some serious stuff. -leonard,did you do this? actually,that's my work. Yeah. wellit's just some quantum mechanics With a little string theory doodling around the edges. That part there,that's just a joke.",
+      "textZh": "这些东西看上去真深奥啊 -莱纳德这是你写的-不这是我的 不错只是一些量子力学而已 边上还随便写了一点点弦理论 那部分，是我开的玩笑",
+      "coverImage": "material/covers/segment-0027.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0028",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 388700,
+      "endMs": 402300,
+      "capturedAtMs": 395500,
+      "timecodeLabel": "06:28-06:42",
+      "durationMs": 13600,
+      "lineIndexes": [
+        143,
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0143",
+        "bbt-s01e01-line-0144",
+        "bbt-s01e01-line-0145",
+        "bbt-s01e01-line-0146",
+        "bbt-s01e01-line-0147",
+        "bbt-s01e01-line-0148"
+      ],
+      "textEn": "It's a spoof of the born-oppenheimer approximation. So you're like one of those beautiful mind genius guys. Yeah Yeah Yeah -this is really impressive. -i have a board",
+      "textZh": "讽刺下波恩-奥本海默近似 这么说你就像是美丽心灵里那种天才一样 770 7是吧 07 一真让人赞叹一我也有块板",
+      "coverImage": "material/covers/segment-0028.webp",
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "id": "segment-0029",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 402400,
+      "endMs": 415800,
+      "capturedAtMs": 409100,
+      "timecodeLabel": "06:42-06:55",
+      "durationMs": 13400,
+      "lineIndexes": [
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0149",
+        "bbt-s01e01-line-0150",
+        "bbt-s01e01-line-0151",
+        "bbt-s01e01-line-0152",
+        "bbt-s01e01-line-0153",
+        "bbt-s01e01-line-0154"
+      ],
+      "textEn": "If you like boards,this is my board. Holy smokes. If by \"holy smokes\".you mean A derivative restatement of the kind of stuff You can find scribbled on the wallof any men's room at mit,sure. -what? -come on.",
+      "textZh": "如果你喜欢板这块是我的 我的天啊 如果你说我的天啊是想 再一次强调说你能在任何一个麻省理工的 男生寝室墙上发现那些涂鸦那一点没错 一什么-得了吧",
+      "coverImage": "material/covers/segment-0029.webp",
+      "qualityFlags": []
+    },
+    {
+      "id": "segment-0030",
+      "episodeId": "bbt-s01e01-pilot-sample",
+      "startMs": 416000,
+      "endMs": 423900,
+      "capturedAtMs": 419950,
+      "timecodeLabel": "06:56-07:03",
+      "durationMs": 7900,
+      "lineIndexes": [
+        155,
+        156,
+        157,
+        158
+      ],
+      "lineIds": [
+        "bbt-s01e01-line-0155",
+        "bbt-s01e01-line-0156",
+        "bbt-s01e01-line-0157",
+        "bbt-s01e01-line-0158"
+      ],
+      "textEn": "Who hasn't seen this differential below \"here I sit.broken-hearted? Who hasn't seen this differential below \"here I sit.broken-hearted? At least I didn't have to invent 26 dimensions Just to make the math come out.",
+      "textZh": "看到那微分上面写着我打住了心碎了算不 看到那微分上写着我打住了碎了算不 至少我不会为了解决个数学问题 去发明个什么26维出来",
+      "coverImage": "material/covers/segment-0030.webp",
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    }
+  ],
+  "importOrder": [
+    "shows",
+    "episodes",
+    "subtitleLines",
+    "subtitleSegments"
+  ]
+}

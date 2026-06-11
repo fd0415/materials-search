@@ -1,0 +1,2421 @@
+{
+  "sourceVideo": "material/source.mp4",
+  "subtitleSources": {
+    "en": "material/en.srt",
+    "zh": "material/zh.srt",
+    "enSha256": "bf717932ab8ff4b4c6fc522c6ed99810d54c6cefba80e9250532d3dc3b03f943",
+    "zhSha256": "38cf0740b03ebd31b7adee08f72e5788eacd95aba142aa9461868aac7ed5aea9"
+  },
+  "alignmentStrategy": "zh_timeline_primary_time_overlap_en_joined",
+  "lineCount": 158,
+  "lines": [
+    {
+      "lineIndex": 1,
+      "startMs": 300,
+      "endMs": 2700,
+      "timecodeLabel": "00:00-00:02",
+      "textEn": "However,if it's observed after it's left the plane",
+      "textZh": "但如果它是在离开平面后",
+      "source": {
+        "zhIndex": "1",
+        "enIndexes": [
+          "1"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 2,
+      "startMs": 2800,
+      "endMs": 3999,
+      "timecodeLabel": "00:02-00:03",
+      "textEn": "But before it hits its target,",
+      "textZh": "在击中目标物之前被观测到",
+      "source": {
+        "zhIndex": "2",
+        "enIndexes": [
+          "2",
+          "3"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 3,
+      "startMs": 4000,
+      "endMs": 5200,
+      "timecodeLabel": "00:04-00:05",
+      "textEn": "it won't have gone through both slits.",
+      "textZh": "那它不会同时通过两个狭缝",
+      "source": {
+        "zhIndex": "3",
+        "enIndexes": [
+          "4"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 4,
+      "startMs": 6100,
+      "endMs": 7300,
+      "timecodeLabel": "00:06-00:07",
+      "textEn": "II1555Agreed.what's your point?XA 1",
+      "textZh": "没错你想说什么 m口心 TA",
+      "source": {
+        "zhIndex": "4",
+        "enIndexes": [
+          "5"
+        ]
+      },
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "lineIndex": 5,
+      "startMs": 7500,
+      "endMs": 7699,
+      "timecodeLabel": "00:07-00:07",
+      "textEn": null,
+      "textZh": "TA",
+      "source": {
+        "zhIndex": "5",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 6,
+      "startMs": 7700,
+      "endMs": 10300,
+      "timecodeLabel": "00:07-00:10",
+      "textEn": "There's no point,I just think it's a good idea for a t-shirt.",
+      "textZh": "没什么我只是觉得这个主意放在T恤上不镜",
+      "source": {
+        "zhIndex": "6",
+        "enIndexes": [
+          "6"
+        ]
+      },
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "lineIndex": 7,
+      "startMs": 16700,
+      "endMs": 18400,
+      "timecodeLabel": "00:16-00:18",
+      "textEn": "excuse me. -hang on",
+      "textZh": "-您好-稍等",
+      "source": {
+        "zhIndex": "7",
+        "enIndexes": [
+          "7"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 8,
+      "startMs": 21800,
+      "endMs": 24400,
+      "timecodeLabel": "00:21-00:24",
+      "textEn": "One across is \"aegean.\"",
+      "textZh": "Johnny Galecki",
+      "source": {
+        "zhIndex": "8",
+        "enIndexes": [
+          "8"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 9,
+      "startMs": 22700,
+      "endMs": 24400,
+      "timecodeLabel": "00:22-00:24",
+      "textEn": "One across is \"aegean.\"",
+      "textZh": "横1是爱琴海",
+      "source": {
+        "zhIndex": "9",
+        "enIndexes": [
+          "8"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 10,
+      "startMs": 24500,
+      "endMs": 25800,
+      "timecodeLabel": "00:24-00:25",
+      "textEn": "Eight down is \"nabokov.\"",
+      "textZh": "竖8是纳巴科夫",
+      "source": {
+        "zhIndex": "10",
+        "enIndexes": [
+          "9"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 11,
+      "startMs": 26000,
+      "endMs": 28300,
+      "timecodeLabel": "00:26-00:28",
+      "textEn": "26 across is \"mcm.\"",
+      "textZh": "横26MCM",
+      "source": {
+        "zhIndex": "11",
+        "enIndexes": [
+          "10"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 12,
+      "startMs": 28300,
+      "endMs": 30900,
+      "timecodeLabel": "00:28-00:30",
+      "textEn": "14 down is... move your finger.",
+      "textZh": "Jim Parsonse",
+      "source": {
+        "zhIndex": "12",
+        "enIndexes": [
+          "11"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 13,
+      "startMs": 28600,
+      "endMs": 30900,
+      "timecodeLabel": "00:28-00:30",
+      "textEn": "14 down is... move your finger.",
+      "textZh": "竖14是你手挡住了",
+      "source": {
+        "zhIndex": "13",
+        "enIndexes": [
+          "11"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 14,
+      "startMs": 31800,
+      "endMs": 34400,
+      "timecodeLabel": "00:31-00:34",
+      "textEn": "\"phylum\" which makes 14 across \"port-au-prince\"",
+      "textZh": "是门所以说横十四是太子港",
+      "source": {
+        "zhIndex": "14",
+        "enIndexes": [
+          "12"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 15,
+      "startMs": 36100,
+      "endMs": 39300,
+      "timecodeLabel": "00:36-00:39",
+      "textEn": "See,\"papa doc's capitol idea,\" that's \"port-au-prince.\"",
+      "textZh": "尔看这是海地总统绰号提示了所以是太子",
+      "source": {
+        "zhIndex": "15",
+        "enIndexes": [
+          "13"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 16,
+      "startMs": 36100,
+      "endMs": 39300,
+      "timecodeLabel": "00:36-00:39",
+      "textEn": "See,\"papa doc's capitol idea,\" that's \"port-au-prince.\"",
+      "textZh": "尔看这是海地总统绰号提示了所以是太子",
+      "source": {
+        "zhIndex": "16",
+        "enIndexes": [
+          "13"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 17,
+      "startMs": 40800,
+      "endMs": 41800,
+      "timecodeLabel": "00:40-00:41",
+      "textEn": "Haiti.",
+      "textZh": "在海地",
+      "source": {
+        "zhIndex": "17",
+        "enIndexes": [
+          "14"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 18,
+      "startMs": 43300,
+      "endMs": 44900,
+      "timecodeLabel": "00:43-00:44",
+      "textEn": "-can I help you?-yes.",
+      "textZh": "需要帮忙吗是的",
+      "source": {
+        "zhIndex": "18",
+        "enIndexes": [
+          "15"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 19,
+      "startMs": 45400,
+      "endMs": 51000,
+      "timecodeLabel": "00:45-00:51",
+      "textEn": "Is this the high-iq sperm bank?",
+      "textZh": "Simon Herberp",
+      "source": {
+        "zhIndex": "19",
+        "enIndexes": [
+          "16"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 20,
+      "startMs": 47800,
+      "endMs": 51000,
+      "timecodeLabel": "00:47-00:51",
+      "textEn": "Is this the high-iq sperm bank?",
+      "textZh": "这里是高智商**库吗",
+      "source": {
+        "zhIndex": "20",
+        "enIndexes": [
+          "16"
+        ]
+      },
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "lineIndex": 21,
+      "startMs": 52600,
+      "endMs": 55300,
+      "timecodeLabel": "00:52-00:55",
+      "textEn": "If you have to ask,maybe you shouldn't be here.",
+      "textZh": "如果这还要问的话那你可能不该来这",
+      "source": {
+        "zhIndex": "21",
+        "enIndexes": [
+          "17"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 22,
+      "startMs": 56500,
+      "endMs": 58700,
+      "timecodeLabel": "00:56-00:58",
+      "textEn": "I think this is theplace.",
+      "textZh": "Kunal Nayyar",
+      "source": {
+        "zhIndex": "22",
+        "enIndexes": [
+          "18"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 23,
+      "startMs": 59200,
+      "endMs": 60600,
+      "timecodeLabel": "00:59-01:00",
+      "textEn": "-fill these out. -thank you.",
+      "textZh": "一把表格填了-谢谢",
+      "source": {
+        "zhIndex": "23",
+        "enIndexes": [
+          "19"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 24,
+      "startMs": 62100,
+      "endMs": 62300,
+      "timecodeLabel": "01:02-01:02",
+      "textEn": null,
+      "textZh": "+",
+      "source": {
+        "zhIndex": "24",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 25,
+      "startMs": 62700,
+      "endMs": 63200,
+      "timecodeLabel": "01:02-01:03",
+      "textEn": null,
+      "textZh": "公",
+      "source": {
+        "zhIndex": "25",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 26,
+      "startMs": 68300,
+      "endMs": 69399,
+      "timecodeLabel": "01:08-01:09",
+      "textEn": null,
+      "textZh": "2",
+      "source": {
+        "zhIndex": "26",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 27,
+      "startMs": 69400,
+      "endMs": 75100,
+      "timecodeLabel": "01:09-01:15",
+      "textEn": null,
+      "textZh": "人 H",
+      "source": {
+        "zhIndex": "27",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 28,
+      "startMs": 79100,
+      "endMs": 81200,
+      "timecodeLabel": "01:19-01:21",
+      "textEn": "Leonard,I don't think I can do this.",
+      "textZh": "莱纳德我觉得我做不到",
+      "source": {
+        "zhIndex": "28",
+        "enIndexes": [
+          "29"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 29,
+      "startMs": 81400,
+      "endMs": 83700,
+      "timecodeLabel": "01:21-01:23",
+      "textEn": "What,are you kidding? you're a semi-pro.",
+      "textZh": "开什么玩笑你都是半职业选手了",
+      "source": {
+        "zhIndex": "29",
+        "enIndexes": [
+          "30"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 30,
+      "startMs": 84800,
+      "endMs": 87100,
+      "timecodeLabel": "01:24-01:27",
+      "textEn": "No. we.are committing genetic fraud.",
+      "textZh": "不是的我们这是在犯基因欺诈罪",
+      "source": {
+        "zhIndex": "30",
+        "enIndexes": [
+          "31"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 31,
+      "startMs": 87300,
+      "endMs": 88999,
+      "timecodeLabel": "01:27-01:28",
+      "textEn": "There's no guarantee that our sperm",
+      "textZh": "我们的**并不能保证",
+      "source": {
+        "zhIndex": "31",
+        "enIndexes": [
+          "32"
+        ]
+      },
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "lineIndex": 32,
+      "startMs": 89000,
+      "endMs": 90699,
+      "timecodeLabel": "01:29-01:30",
+      "textEn": "is going to generate high-iqOffspring.",
+      "textZh": "将来就能生出高智商的后代",
+      "source": {
+        "zhIndex": "32",
+        "enIndexes": [
+          "33"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 33,
+      "startMs": 90700,
+      "endMs": 93400,
+      "timecodeLabel": "01:30-01:33",
+      "textEn": "Think about that. I have a sister with the same basic dna mix",
+      "textZh": "你想想我姐姐和我的DNA结构相同",
+      "source": {
+        "zhIndex": "33",
+        "enIndexes": [
+          "34"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 34,
+      "startMs": 93600,
+      "endMs": 95200,
+      "timecodeLabel": "01:33-01:35",
+      "textEn": "Who hostesses at-fuddruckers.",
+      "textZh": "可她只是快餐店的女服务生",
+      "source": {
+        "zhIndex": "34",
+        "enIndexes": [
+          "35"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 35,
+      "startMs": 96500,
+      "endMs": 98300,
+      "timecodeLabel": "01:36-01:38",
+      "textEn": "Sheldon,this was your idea.",
+      "textZh": "谢尔顿当初是你要来的",
+      "source": {
+        "zhIndex": "35",
+        "enIndexes": [
+          "36",
+          "37"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 36,
+      "startMs": 98600,
+      "endMs": 99699,
+      "timecodeLabel": "01:38-01:39",
+      "textEn": "A little extra money to get",
+      "textZh": "这点补贴能让我们",
+      "source": {
+        "zhIndex": "36",
+        "enIndexes": [
+          "38"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 37,
+      "startMs": 99700,
+      "endMs": 102099,
+      "timecodeLabel": "01:39-01:42",
+      "textEn": "fractional t-1 bandwidth in the apartment.",
+      "textZh": "在寓所里拥有分式T-1带宽",
+      "source": {
+        "zhIndex": "37",
+        "enIndexes": [
+          "39"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 38,
+      "startMs": 102100,
+      "endMs": 104800,
+      "timecodeLabel": "01:42-01:44",
+      "textEn": "I know,and I do yearn for faster downloads.",
+      "textZh": "我知道我的确渴望更快的下载速度",
+      "source": {
+        "zhIndex": "38",
+        "enIndexes": [
+          "40"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 39,
+      "startMs": 105800,
+      "endMs": 106999,
+      "timecodeLabel": "01:45-01:46",
+      "textEn": "But there's some poor woman",
+      "textZh": "但那些可怜的女人们",
+      "source": {
+        "zhIndex": "39",
+        "enIndexes": [
+          "41"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 40,
+      "startMs": 107000,
+      "endMs": 109100,
+      "timecodeLabel": "01:47-01:49",
+      "textEn": "who's gonna pin her hopes on my sperm.",
+      "textZh": "会把希望寄托在我**上的",
+      "source": {
+        "zhIndex": "40",
+        "enIndexes": [
+          "42"
+        ]
+      },
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "lineIndex": 41,
+      "startMs": 109200,
+      "endMs": 111800,
+      "timecodeLabel": "01:49-01:51",
+      "textEn": "What if she winds up with a toddler who doesn't know if he should use",
+      "textZh": "如果她最后发现那小不点连曲线下面积",
+      "source": {
+        "zhIndex": "41",
+        "enIndexes": [
+          "43"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 42,
+      "startMs": 111900,
+      "endMs": 115400,
+      "timecodeLabel": "01:51-01:55",
+      "textEn": "An integral or a differential to solve the area under a curve?",
+      "textZh": "该用积分还是微分算都不知道她会怎么想",
+      "source": {
+        "zhIndex": "42",
+        "enIndexes": [
+          "44"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 43,
+      "startMs": 116300,
+      "endMs": 118800,
+      "timecodeLabel": "01:56-01:58",
+      "textEn": "-i'm sure she'll still love him. -i wouldn't.",
+      "textZh": "一我肯定她还是会爱他的-我不会",
+      "source": {
+        "zhIndex": "43",
+        "enIndexes": [
+          "45"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 44,
+      "startMs": 120900,
+      "endMs": 122400,
+      "timecodeLabel": "02:00-02:02",
+      "textEn": "Well,what do you want to do?",
+      "textZh": "你现在想怎么样",
+      "source": {
+        "zhIndex": "44",
+        "enIndexes": [
+          "46"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 45,
+      "startMs": 122500,
+      "endMs": 123400,
+      "timecodeLabel": "02:02-02:03",
+      "textEn": "I want to leave.",
+      "textZh": "我想走了",
+      "source": {
+        "zhIndex": "45",
+        "enIndexes": [
+          "47"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 46,
+      "startMs": 123500,
+      "endMs": 124200,
+      "timecodeLabel": "02:03-02:04",
+      "textEn": "OK",
+      "textZh": "好吧",
+      "source": {
+        "zhIndex": "46",
+        "enIndexes": [
+          "48"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 47,
+      "startMs": 125400,
+      "endMs": 126800,
+      "timecodeLabel": "02:05-02:06",
+      "textEn": "What's the protocol for leaving?",
+      "textZh": "该怎么跟她说呢",
+      "source": {
+        "zhIndex": "47",
+        "enIndexes": [
+          "49"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 48,
+      "startMs": 127200,
+      "endMs": 130400,
+      "timecodeLabel": "02:07-02:10",
+      "textEn": "I don't know.. I've never reneged on a proffer of sperm before",
+      "textZh": "找不知道我以前从来没在捐献**时中途走人",
+      "source": {
+        "zhIndex": "48",
+        "enIndexes": [
+          "50"
+        ]
+      },
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "lineIndex": 49,
+      "startMs": 131800,
+      "endMs": 133100,
+      "timecodeLabel": "02:11-02:13",
+      "textEn": "Let's try just walking out.",
+      "textZh": "我们就直接走吧",
+      "source": {
+        "zhIndex": "49",
+        "enIndexes": [
+          "51"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 50,
+      "startMs": 134100,
+      "endMs": 134500,
+      "timecodeLabel": "02:14-02:14",
+      "textEn": null,
+      "textZh": "好",
+      "source": {
+        "zhIndex": "50",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 51,
+      "startMs": 145500,
+      "endMs": 147800,
+      "timecodeLabel": "02:25-02:27",
+      "textEn": "-bye. -bye. nice meeting you.",
+      "textZh": "-再见一再见很高兴见到你",
+      "source": {
+        "zhIndex": "51",
+        "enIndexes": [
+          "52"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 52,
+      "startMs": 150700,
+      "endMs": 152400,
+      "timecodeLabel": "02:30-02:32",
+      "textEn": "Are you still mad about the sperm bank?",
+      "textZh": "你还在为那个**库的事生气吗",
+      "source": {
+        "zhIndex": "52",
+        "enIndexes": [
+          "53"
+        ]
+      },
+      "qualityFlags": [
+        "ocr_noise_suspected"
+      ]
+    },
+    {
+      "lineIndex": 53,
+      "startMs": 152600,
+      "endMs": 153000,
+      "timecodeLabel": "02:32-02:33",
+      "textEn": "No.",
+      "textZh": "没有",
+      "source": {
+        "zhIndex": "53",
+        "enIndexes": [
+          "54"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 54,
+      "startMs": 154800,
+      "endMs": 157700,
+      "timecodeLabel": "02:34-02:37",
+      "textEn": "You want to hear an interesting thing about stairs?",
+      "textZh": "你想不想听有关楼梯的有趣事情",
+      "source": {
+        "zhIndex": "54",
+        "enIndexes": [
+          "55"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 55,
+      "startMs": 158200,
+      "endMs": 159300,
+      "timecodeLabel": "02:38-02:39",
+      "textEn": "Not really.",
+      "textZh": "不太想",
+      "source": {
+        "zhIndex": "55",
+        "enIndexes": [
+          "56"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 56,
+      "startMs": 160000,
+      "endMs": 162800,
+      "timecodeLabel": "02:40-02:42",
+      "textEn": "If the height of a single step is off by as little as two millimeters,",
+      "textZh": "果有一格阶梯的高度存在哪怕两毫米的微小",
+      "source": {
+        "zhIndex": "56",
+        "enIndexes": [
+          "57"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 57,
+      "startMs": 163000,
+      "endMs": 165300,
+      "timecodeLabel": "02:43-02:45",
+      "textEn": "-most people will trip. -i don't care.",
+      "textZh": "一大多数人会被绊倒-跟我无关",
+      "source": {
+        "zhIndex": "57",
+        "enIndexes": [
+          "58"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 58,
+      "startMs": 167000,
+      "endMs": 168800,
+      "timecodeLabel": "02:47-02:48",
+      "textEn": "Two mili... that doesn't seem right.",
+      "textZh": "两毫那不太可能吧",
+      "source": {
+        "zhIndex": "58",
+        "enIndexes": [
+          "59"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 59,
+      "startMs": 168900,
+      "endMs": 171300,
+      "timecodeLabel": "02:48-02:51",
+      "textEn": "No,it's true,I did a series of experiments when I was 12",
+      "textZh": "不是真的我12岁时做过一系列试验",
+      "source": {
+        "zhIndex": "59",
+        "enIndexes": [
+          "60"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 60,
+      "startMs": 171400,
+      "endMs": 173000,
+      "timecodeLabel": "02:51-02:53",
+      "textEn": "My father broke his clavicle.",
+      "textZh": "我爸爸还摔断了锁骨",
+      "source": {
+        "zhIndex": "60",
+        "enIndexes": [
+          "61"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 61,
+      "startMs": 174400,
+      "endMs": 176200,
+      "timecodeLabel": "02:54-02:56",
+      "textEn": "Is that why they sent you to boarding school?",
+      "textZh": "你就是因为这个被他们送去寄宿学校的",
+      "source": {
+        "zhIndex": "61",
+        "enIndexes": [
+          "62"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 62,
+      "startMs": 176400,
+      "endMs": 179000,
+      "timecodeLabel": "02:56-02:59",
+      "textEn": "No. that was a result of my work with lasers.",
+      "textZh": "不是是因为我那些关于激光的试验",
+      "source": {
+        "zhIndex": "62",
+        "enIndexes": [
+          "63"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 63,
+      "startMs": 183400,
+      "endMs": 183700,
+      "timecodeLabel": "03:03-03:03",
+      "textEn": null,
+      "textZh": "A",
+      "source": {
+        "zhIndex": "63",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 64,
+      "startMs": 185000,
+      "endMs": 186100,
+      "timecodeLabel": "03:05-03:06",
+      "textEn": "New neighbor?",
+      "textZh": "这是新邻居",
+      "source": {
+        "zhIndex": "64",
+        "enIndexes": [
+          "64"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 65,
+      "startMs": 186300,
+      "endMs": 187300,
+      "timecodeLabel": "03:06-03:07",
+      "textEn": "Evidently.",
+      "textZh": "很明显",
+      "source": {
+        "zhIndex": "65",
+        "enIndexes": [
+          "65"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 66,
+      "startMs": 187800,
+      "endMs": 190400,
+      "timecodeLabel": "03:07-03:10",
+      "textEn": "Significant improvement over the old neighbor.",
+      "textZh": "比起上一个的水准真是有显著提高",
+      "source": {
+        "zhIndex": "66",
+        "enIndexes": [
+          "66"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 67,
+      "startMs": 191500,
+      "endMs": 193600,
+      "timecodeLabel": "03:11-03:13",
+      "textEn": "200-pound transvestite with a skin condition?",
+      "textZh": "那个体重200磅有皮肤问题的异装癖者",
+      "source": {
+        "zhIndex": "67",
+        "enIndexes": [
+          "67"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 68,
+      "startMs": 193700,
+      "endMs": 194700,
+      "timecodeLabel": "03:13-03:14",
+      "textEn": "Yes,she is.",
+      "textZh": "那是没错",
+      "source": {
+        "zhIndex": "68",
+        "enIndexes": [
+          "68"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 69,
+      "startMs": 197200,
+      "endMs": 200200,
+      "timecodeLabel": "03:17-03:20",
+      "textEn": "W-ohhi-hiK oh.hi.=hi.",
+      "textZh": "一你好一你好",
+      "source": {
+        "zhIndex": "69",
+        "enIndexes": [
+          "69",
+          "70"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 70,
+      "startMs": 201800,
+      "endMs": 203999,
+      "timecodeLabel": "03:21-03:23",
+      "textEn": "rOLVCOCY",
+      "textZh": "你好",
+      "source": {
+        "zhIndex": "70",
+        "enIndexes": [
+          "71"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 71,
+      "startMs": 204000,
+      "endMs": 206200,
+      "timecodeLabel": "03:24-03:26",
+      "textEn": "We don't mean to interrupt. we live across the hall",
+      "textZh": "我们不想打搅你我们就住你对面",
+      "source": {
+        "zhIndex": "71",
+        "enIndexes": [
+          "73"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 72,
+      "startMs": 206400,
+      "endMs": 208100,
+      "timecodeLabel": "03:26-03:28",
+      "textEn": "Oh,that'snice.",
+      "textZh": "你们真好啊",
+      "source": {
+        "zhIndex": "72",
+        "enIndexes": [
+          "74"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 73,
+      "startMs": 209200,
+      "endMs": 211100,
+      "timecodeLabel": "03:29-03:31",
+      "textEn": "We don't live together. I mean...",
+      "textZh": "我们不是住在一起我是说",
+      "source": {
+        "zhIndex": "73",
+        "enIndexes": [
+          "75"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 74,
+      "startMs": 211800,
+      "endMs": 212900,
+      "timecodeLabel": "03:31-03:32",
+      "textEn": "We live together,",
+      "textZh": "我们是住在一起",
+      "source": {
+        "zhIndex": "74",
+        "enIndexes": [
+          "76"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 75,
+      "startMs": 213000,
+      "endMs": 216000,
+      "timecodeLabel": "03:33-03:36",
+      "textEn": "But in separate,heterosexual bedrooms.",
+      "textZh": "不过是在分开的异性恋的卧室里",
+      "source": {
+        "zhIndex": "75",
+        "enIndexes": [
+          "77"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 76,
+      "startMs": 217400,
+      "endMs": 218400,
+      "timecodeLabel": "03:37-03:38",
+      "textEn": "Okay:well.. Okay.well",
+      "textZh": "好的",
+      "source": {
+        "zhIndex": "76",
+        "enIndexes": [
+          "78",
+          "79"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 77,
+      "startMs": 218600,
+      "endMs": 220400,
+      "timecodeLabel": "03:38-03:40",
+      "textEn": "Guess I'm your new neighbor. penny",
+      "textZh": "看来你们就是我的新邻居了我叫佩妮",
+      "source": {
+        "zhIndex": "77",
+        "enIndexes": [
+          "80"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 78,
+      "startMs": 220900,
+      "endMs": 222599,
+      "timecodeLabel": "03:40-03:42",
+      "textEn": "-leonard. sheldon. -hi.",
+      "textZh": "一我是莱纳德他是谢尔顿-你好",
+      "source": {
+        "zhIndex": "78",
+        "enIndexes": [
+          "81"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 79,
+      "startMs": 222600,
+      "endMs": 224500,
+      "timecodeLabel": "03:42-03:44",
+      "textEn": "-hi. -hi.",
+      "textZh": "一你好-你好",
+      "source": {
+        "zhIndex": "79",
+        "enIndexes": [
+          "82"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 80,
+      "startMs": 227000,
+      "endMs": 228100,
+      "timecodeLabel": "03:47-03:48",
+      "textEn": "Well..",
+      "textZh": "那么",
+      "source": {
+        "zhIndex": "80",
+        "enIndexes": [
+          "83"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 81,
+      "startMs": 228900,
+      "endMs": 230300,
+      "timecodeLabel": "03:48-03:50",
+      "textEn": "Welcome to the building.",
+      "textZh": "欢迎成为我们的邻居",
+      "source": {
+        "zhIndex": "81",
+        "enIndexes": [
+          "84"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 82,
+      "startMs": 230700,
+      "endMs": 232900,
+      "timecodeLabel": "03:50-03:52",
+      "textEn": "Thank you, maybe we can have coffee sometime.",
+      "textZh": "谢谢你我们可以什么时候喝喝咖啡",
+      "source": {
+        "zhIndex": "82",
+        "enIndexes": [
+          "85"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 83,
+      "startMs": 233000,
+      "endMs": 234800,
+      "timecodeLabel": "03:53-03:54",
+      "textEn": "Great.",
+      "textZh": "很好啊",
+      "source": {
+        "zhIndex": "83",
+        "enIndexes": [
+          "86"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 84,
+      "startMs": 237900,
+      "endMs": 240200,
+      "timecodeLabel": "03:57-04:00",
+      "textEn": "-well.. bye. -bye.",
+      "textZh": "一那再见-再见",
+      "source": {
+        "zhIndex": "84",
+        "enIndexes": [
+          "87"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 85,
+      "startMs": 240700,
+      "endMs": 241300,
+      "timecodeLabel": "04:00-04:01",
+      "textEn": "bye.",
+      "textZh": "再见",
+      "source": {
+        "zhIndex": "85",
+        "enIndexes": [
+          "88"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 86,
+      "startMs": 244100,
+      "endMs": 245800,
+      "timecodeLabel": "04:04-04:05",
+      "textEn": "Should we have invited her for lunch?",
+      "textZh": "我们要不要请她来吃午饭",
+      "source": {
+        "zhIndex": "86",
+        "enIndexes": [
+          "89"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 87,
+      "startMs": 246300,
+      "endMs": 248900,
+      "timecodeLabel": "04:06-04:08",
+      "textEn": "No.We're gonna start season two of battlestar galactica.",
+      "textZh": "不我们要开始看太空堡垒卡拉狄加第二季",
+      "source": {
+        "zhIndex": "87",
+        "enIndexes": [
+          "90"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 88,
+      "startMs": 249500,
+      "endMs": 251500,
+      "timecodeLabel": "04:09-04:11",
+      "textEn": "We already watched the season two dvds.",
+      "textZh": "第二季的DVD我们已经看过了",
+      "source": {
+        "zhIndex": "88",
+        "enIndexes": [
+          "91"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 89,
+      "startMs": 251600,
+      "endMs": 252800,
+      "timecodeLabel": "04:11-04:12",
+      "textEn": "Not with commentary.",
+      "textZh": "但评论音轨还没看",
+      "source": {
+        "zhIndex": "89",
+        "enIndexes": [
+          "92"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 90,
+      "startMs": 255500,
+      "endMs": 257400,
+      "timecodeLabel": "04:15-04:17",
+      "textEn": "I think we should be good neighbors",
+      "textZh": "我觉得我们应该做个好邻居",
+      "source": {
+        "zhIndex": "90",
+        "enIndexes": [
+          "93"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 91,
+      "startMs": 257500,
+      "endMs": 259400,
+      "timecodeLabel": "04:17-04:19",
+      "textEn": "And invite her over,make her feel welcome.",
+      "textZh": "邀请她过来做客让她觉得亲切",
+      "source": {
+        "zhIndex": "91",
+        "enIndexes": [
+          "94"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 92,
+      "startMs": 259900,
+      "endMs": 262600,
+      "timecodeLabel": "04:19-04:22",
+      "textEn": "We never invited louie-slash-louise over.",
+      "textZh": "我们从没请过那个叫路易还是叫路易斯的过",
+      "source": {
+        "zhIndex": "92",
+        "enIndexes": [
+          "95"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 93,
+      "startMs": 263800,
+      "endMs": 265500,
+      "timecodeLabel": "04:23-04:25",
+      "textEn": "And that was wrong of us.",
+      "textZh": "那是我们的不对",
+      "source": {
+        "zhIndex": "93",
+        "enIndexes": [
+          "96"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 94,
+      "startMs": 265600,
+      "endMs": 267000,
+      "timecodeLabel": "04:25-04:27",
+      "textEn": "We need to widen our circle.",
+      "textZh": "我们得扩大下我们的朋友圈子",
+      "source": {
+        "zhIndex": "94",
+        "enIndexes": [
+          "97"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 95,
+      "startMs": 267500,
+      "endMs": 269600,
+      "timecodeLabel": "04:27-04:29",
+      "textEn": "I have a very wide circle.",
+      "textZh": "我的朋友圈子已经很大了",
+      "source": {
+        "zhIndex": "95",
+        "enIndexes": [
+          "98"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 96,
+      "startMs": 270500,
+      "endMs": 272500,
+      "timecodeLabel": "04:30-04:32",
+      "textEn": "I have 212 friends on myspace.",
+      "textZh": "我的空间上有212个好友",
+      "source": {
+        "zhIndex": "96",
+        "enIndexes": [
+          "99"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 97,
+      "startMs": 274500,
+      "endMs": 276600,
+      "timecodeLabel": "04:34-04:36",
+      "textEn": "Yes,and you've never met one of them.",
+      "textZh": "不错可他们你一个也没见过",
+      "source": {
+        "zhIndex": "97",
+        "enIndexes": [
+          "100"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 98,
+      "startMs": 277400,
+      "endMs": 278700,
+      "timecodeLabel": "04:37-04:38",
+      "textEn": "That's the beauty of it.",
+      "textZh": "这正是其美妙之处",
+      "source": {
+        "zhIndex": "98",
+        "enIndexes": [
+          "101"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 99,
+      "startMs": 281200,
+      "endMs": 282700,
+      "timecodeLabel": "04:41-04:42",
+      "textEn": "I'm gonna invite her over.",
+      "textZh": "我要请她过来",
+      "source": {
+        "zhIndex": "99",
+        "enIndexes": [
+          "102"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 100,
+      "startMs": 283300,
+      "endMs": 285800,
+      "timecodeLabel": "04:43-04:45",
+      "textEn": "We'll have a nice meal and... chat.",
+      "textZh": "我们可以好好吃一顿然后聊天",
+      "source": {
+        "zhIndex": "100",
+        "enIndexes": [
+          "103"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 101,
+      "startMs": 286100,
+      "endMs": 288800,
+      "timecodeLabel": "04:46-04:48",
+      "textEn": "Chat? we don't chat. at least not offline.",
+      "textZh": "聊天我们平时不聊天至少下了网不聊",
+      "source": {
+        "zhIndex": "101",
+        "enIndexes": [
+          "104"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 102,
+      "startMs": 291200,
+      "endMs": 292500,
+      "timecodeLabel": "04:51-04:52",
+      "textEn": "It's not difficult.",
+      "textZh": "这没什么难的",
+      "source": {
+        "zhIndex": "102",
+        "enIndexes": [
+          "105"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 103,
+      "startMs": 292600,
+      "endMs": 294100,
+      "timecodeLabel": "04:52-04:54",
+      "textEn": "You just listen to what she says",
+      "textZh": "你只要听着她讲些什么",
+      "source": {
+        "zhIndex": "103",
+        "enIndexes": [
+          "106"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 104,
+      "startMs": 294300,
+      "endMs": 297100,
+      "timecodeLabel": "04:54-04:57",
+      "textEn": "And then you say something appropriate in response.",
+      "textZh": "然后你适当地回应她一些",
+      "source": {
+        "zhIndex": "104",
+        "enIndexes": [
+          "107"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 105,
+      "startMs": 298500,
+      "endMs": 299500,
+      "timecodeLabel": "04:58-04:59",
+      "textEn": "To what end?",
+      "textZh": "那最后要干什么",
+      "source": {
+        "zhIndex": "105",
+        "enIndexes": [
+          "108"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 106,
+      "startMs": 301400,
+      "endMs": 303100,
+      "timecodeLabel": "05:01-05:03",
+      "textEn": "Hi... again..",
+      "textZh": "你好又来了",
+      "source": {
+        "zhIndex": "106",
+        "enIndexes": [
+          "109"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 107,
+      "startMs": 303200,
+      "endMs": 305100,
+      "timecodeLabel": "05:03-05:05",
+      "textEn": "Hi.",
+      "textZh": "你好",
+      "source": {
+        "zhIndex": "107",
+        "enIndexes": [
+          "110"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 108,
+      "startMs": 306300,
+      "endMs": 307300,
+      "timecodeLabel": "05:06-05:07",
+      "textEn": "Anyway..",
+      "textZh": "那个",
+      "source": {
+        "zhIndex": "108",
+        "enIndexes": [
+          "111"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 109,
+      "startMs": 307900,
+      "endMs": 309500,
+      "timecodeLabel": "05:07-05:09",
+      "textEn": "We brought home indian food.",
+      "textZh": "我们带了印度菜回来",
+      "source": {
+        "zhIndex": "109",
+        "enIndexes": [
+          "112"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 110,
+      "startMs": 310500,
+      "endMs": 311500,
+      "timecodeLabel": "05:10-05:11",
+      "textEn": "And..",
+      "textZh": "然后",
+      "source": {
+        "zhIndex": "110",
+        "enIndexes": [
+          "113"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 111,
+      "startMs": 312000,
+      "endMs": 314100,
+      "timecodeLabel": "05:12-05:14",
+      "textEn": "I know that moving can be stressful",
+      "textZh": "我知道搬家可能会很累",
+      "source": {
+        "zhIndex": "111",
+        "enIndexes": [
+          "114"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 112,
+      "startMs": 314300,
+      "endMs": 316500,
+      "timecodeLabel": "05:14-05:16",
+      "textEn": "And I find that when I'm undergoing stress,",
+      "textZh": "并且我发现当我身心俱疲时",
+      "source": {
+        "zhIndex": "112",
+        "enIndexes": [
+          "115"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 113,
+      "startMs": 316600,
+      "endMs": 319700,
+      "timecodeLabel": "05:16-05:19",
+      "textEn": "That good food and company can have a comforting effect.",
+      "textZh": "美食和伙伴能让我感觉很舒坦",
+      "source": {
+        "zhIndex": "113",
+        "enIndexes": [
+          "116"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 114,
+      "startMs": 320900,
+      "endMs": 324100,
+      "timecodeLabel": "05:20-05:24",
+      "textEn": "Also curry is a natural laxative,and I don't have to tell you",
+      "textZh": "还有咖喱本身有通便功效我想我不必再说",
+      "source": {
+        "zhIndex": "114",
+        "enIndexes": [
+          "118"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 115,
+      "startMs": 324200,
+      "endMs": 326900,
+      "timecodeLabel": "05:24-05:26",
+      "textEn": "That,you know,a clean colon is just.",
+      "textZh": "你知道如果大肠通畅",
+      "source": {
+        "zhIndex": "115",
+        "enIndexes": [
+          "119"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 116,
+      "startMs": 327200,
+      "endMs": 329000,
+      "timecodeLabel": "05:27-05:29",
+      "textEn": "One less thing to worry about.",
+      "textZh": "那又可以少一件操心事了",
+      "source": {
+        "zhIndex": "116",
+        "enIndexes": [
+          "120"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 117,
+      "startMs": 330700,
+      "endMs": 333600,
+      "timecodeLabel": "05:30-05:33",
+      "textEn": "I'm no expert,but I believe in the context of a luncheon invitation",
+      "textZh": "面我不在行不过我相信如果是邀请别人吃",
+      "source": {
+        "zhIndex": "117",
+        "enIndexes": [
+          "121"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 118,
+      "startMs": 333700,
+      "endMs": 336200,
+      "timecodeLabel": "05:33-05:36",
+      "textEn": "You might want to skip the reference to bowel movements.",
+      "textZh": "你最好不要说些肠运动的事",
+      "source": {
+        "zhIndex": "118",
+        "enIndexes": [
+          "122"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 119,
+      "startMs": 336800,
+      "endMs": 338500,
+      "timecodeLabel": "05:36-05:38",
+      "textEn": "You're inviting me over to eat?",
+      "textZh": "你们是在邀请我过去吃饭",
+      "source": {
+        "zhIndex": "119",
+        "enIndexes": [
+          "123"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 120,
+      "startMs": 339600,
+      "endMs": 340100,
+      "timecodeLabel": "05:39-05:40",
+      "textEn": "Yes.",
+      "textZh": "是的",
+      "source": {
+        "zhIndex": "120",
+        "enIndexes": [
+          "124"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 121,
+      "startMs": 340900,
+      "endMs": 342900,
+      "timecodeLabel": "05:40-05:42",
+      "textEn": "Oh,that's so nice. I'd love to.",
+      "textZh": "你们真好我很乐意",
+      "source": {
+        "zhIndex": "121",
+        "enIndexes": [
+          "125"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 122,
+      "startMs": 343100,
+      "endMs": 343700,
+      "timecodeLabel": "05:43-05:43",
+      "textEn": "Great.",
+      "textZh": "太好了",
+      "source": {
+        "zhIndex": "122",
+        "enIndexes": [
+          "126"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 123,
+      "startMs": 343800,
+      "endMs": 347099,
+      "timecodeLabel": "05:43-05:47",
+      "textEn": "Our whole universe was in a hot, dense state",
+      "textZh": "我们的宇宙曾经超热又超密",
+      "source": {
+        "zhIndex": "123",
+        "enIndexes": [
+          "127"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 124,
+      "startMs": 347100,
+      "endMs": 351099,
+      "timecodeLabel": "05:47-05:51",
+      "textEn": "Then nearly 14 billion years ago expansion started. Wait!",
+      "textZh": "到大约140亿年前的某一天宇宙膨胀开",
+      "source": {
+        "zhIndex": "124",
+        "enIndexes": [
+          "128"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 125,
+      "startMs": 351100,
+      "endMs": 352300,
+      "timecodeLabel": "05:51-05:52",
+      "textEn": "The Earth began to cool -TheEarth began-to cool,",
+      "textZh": "，地球开始冷却！",
+      "source": {
+        "zhIndex": "125",
+        "enIndexes": [
+          "129",
+          "130"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 126,
+      "startMs": 352300,
+      "endMs": 355300,
+      "timecodeLabel": "05:52-05:55",
+      "textEn": "The autotrophs began todrool-Neanderthals developed tools Theautotiophs began to drool, Neanderthals developed tools",
+      "textZh": "自养生物开始发育尼安德塔人发明工具",
+      "source": {
+        "zhIndex": "126",
+        "enIndexes": [
+          "131",
+          "132"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 127,
+      "startMs": 355300,
+      "endMs": 357100,
+      "timecodeLabel": "05:55-05:57",
+      "textEn": "We built-the Wall We built the pyramids We built-the Wall-We builtithe pyramids.",
+      "textZh": "我们建了长城我们建了金学塔",
+      "source": {
+        "zhIndex": "127",
+        "enIndexes": [
+          "133",
+          "134"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 128,
+      "startMs": 357700,
+      "endMs": 358099,
+      "timecodeLabel": "05:57-05:58",
+      "textEn": null,
+      "textZh": "酸学科学历速解开国",
+      "source": {
+        "zhIndex": "128",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 129,
+      "startMs": 358100,
+      "endMs": 358500,
+      "timecodeLabel": "05:58-05:58",
+      "textEn": null,
+      "textZh": "数学科学历更解开了健国",
+      "source": {
+        "zhIndex": "129",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 130,
+      "startMs": 358600,
+      "endMs": 359500,
+      "timecodeLabel": "05:58-05:59",
+      "textEn": null,
+      "textZh": "数学科字质史解开了谜团",
+      "source": {
+        "zhIndex": "130",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 131,
+      "startMs": 360400,
+      "endMs": 361700,
+      "timecodeLabel": "06:00-06:01",
+      "textEn": ". That all started with a big bang",
+      "textZh": "一切都始于大闻炸",
+      "source": {
+        "zhIndex": "131",
+        "enIndexes": [
+          "135"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 132,
+      "startMs": 362500,
+      "endMs": 363400,
+      "timecodeLabel": "06:02-06:03",
+      "textEn": "Bang!",
+      "textZh": "EUUOA 炸",
+      "source": {
+        "zhIndex": "132",
+        "enIndexes": [
+          "136"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 133,
+      "startMs": 362500,
+      "endMs": 363900,
+      "timecodeLabel": "06:02-06:03",
+      "textEn": "Bang!",
+      "textZh": "KOG",
+      "source": {
+        "zhIndex": "133",
+        "enIndexes": [
+          "136"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 134,
+      "startMs": 364200,
+      "endMs": 364500,
+      "timecodeLabel": "06:04-06:04",
+      "textEn": null,
+      "textZh": "THOC",
+      "source": {
+        "zhIndex": "134",
+        "enIndexes": []
+      },
+      "qualityFlags": [
+        "missing_en"
+      ]
+    },
+    {
+      "lineIndex": 135,
+      "startMs": 366300,
+      "endMs": 368100,
+      "timecodeLabel": "06:06-06:08",
+      "textEn": "Okay,make yourself at home.",
+      "textZh": "好了就当在自己家一样",
+      "source": {
+        "zhIndex": "135",
+        "enIndexes": [
+          "138"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 136,
+      "startMs": 368400,
+      "endMs": 369400,
+      "timecodeLabel": "06:08-06:09",
+      "textEn": "Thank you.",
+      "textZh": "谢谢",
+      "source": {
+        "zhIndex": "136",
+        "enIndexes": [
+          "139"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 137,
+      "startMs": 369700,
+      "endMs": 370900,
+      "timecodeLabel": "06:09-06:10",
+      "textEn": "You're very welcome.",
+      "textZh": "不用谢",
+      "source": {
+        "zhIndex": "137",
+        "enIndexes": [
+          "140"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 138,
+      "startMs": 375200,
+      "endMs": 377000,
+      "timecodeLabel": "06:15-06:17",
+      "textEn": "This looks like some serious stuff.",
+      "textZh": "这些东西看上去真深奥啊",
+      "source": {
+        "zhIndex": "138",
+        "enIndexes": [
+          "141"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 139,
+      "startMs": 377100,
+      "endMs": 380200,
+      "timecodeLabel": "06:17-06:20",
+      "textEn": "-leonard,did you do this? actually,that's my work.",
+      "textZh": "-莱纳德这是你写的-不这是我的",
+      "source": {
+        "zhIndex": "139",
+        "enIndexes": [
+          "142"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 140,
+      "startMs": 382100,
+      "endMs": 384600,
+      "timecodeLabel": "06:22-06:24",
+      "textEn": "Yeah. wellit's just some quantum mechanics",
+      "textZh": "不错只是一些量子力学而已",
+      "source": {
+        "zhIndex": "140",
+        "enIndexes": [
+          "143"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 141,
+      "startMs": 384800,
+      "endMs": 387000,
+      "timecodeLabel": "06:24-06:27",
+      "textEn": "With a little string theory doodling around the edges.",
+      "textZh": "边上还随便写了一点点弦理论",
+      "source": {
+        "zhIndex": "141",
+        "enIndexes": [
+          "144"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 142,
+      "startMs": 387100,
+      "endMs": 388600,
+      "timecodeLabel": "06:27-06:28",
+      "textEn": "That part there,that's just a joke.",
+      "textZh": "那部分，是我开的玩笑",
+      "source": {
+        "zhIndex": "142",
+        "enIndexes": [
+          "145"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 143,
+      "startMs": 388700,
+      "endMs": 391600,
+      "timecodeLabel": "06:28-06:31",
+      "textEn": "It's a spoof of the born-oppenheimer approximation.",
+      "textZh": "讽刺下波恩-奥本海默近似",
+      "source": {
+        "zhIndex": "143",
+        "enIndexes": [
+          "146"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 144,
+      "startMs": 393000,
+      "endMs": 396300,
+      "timecodeLabel": "06:33-06:36",
+      "textEn": "So you're like one of those beautiful mind genius guys.",
+      "textZh": "这么说你就像是美丽心灵里那种天才一样",
+      "source": {
+        "zhIndex": "144",
+        "enIndexes": [
+          "147"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 145,
+      "startMs": 396500,
+      "endMs": 397900,
+      "timecodeLabel": "06:36-06:37",
+      "textEn": "Yeah",
+      "textZh": "770",
+      "source": {
+        "zhIndex": "145",
+        "enIndexes": [
+          "148"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 146,
+      "startMs": 397400,
+      "endMs": 398099,
+      "timecodeLabel": "06:37-06:38",
+      "textEn": "Yeah",
+      "textZh": "7是吧",
+      "source": {
+        "zhIndex": "146",
+        "enIndexes": [
+          "148"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 147,
+      "startMs": 397400,
+      "endMs": 399400,
+      "timecodeLabel": "06:37-06:39",
+      "textEn": "Yeah",
+      "textZh": "07",
+      "source": {
+        "zhIndex": "147",
+        "enIndexes": [
+          "148"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 148,
+      "startMs": 400000,
+      "endMs": 402300,
+      "timecodeLabel": "06:40-06:42",
+      "textEn": "-this is really impressive. -i have a board",
+      "textZh": "一真让人赞叹一我也有块板",
+      "source": {
+        "zhIndex": "148",
+        "enIndexes": [
+          "149"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 149,
+      "startMs": 402400,
+      "endMs": 404500,
+      "timecodeLabel": "06:42-06:44",
+      "textEn": "If you like boards,this is my board.",
+      "textZh": "如果你喜欢板这块是我的",
+      "source": {
+        "zhIndex": "149",
+        "enIndexes": [
+          "150"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 150,
+      "startMs": 405600,
+      "endMs": 406800,
+      "timecodeLabel": "06:45-06:46",
+      "textEn": "Holy smokes.",
+      "textZh": "我的天啊",
+      "source": {
+        "zhIndex": "150",
+        "enIndexes": [
+          "151"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 151,
+      "startMs": 407000,
+      "endMs": 408400,
+      "timecodeLabel": "06:47-06:48",
+      "textEn": "If by \"holy smokes\".you mean",
+      "textZh": "如果你说我的天啊是想",
+      "source": {
+        "zhIndex": "151",
+        "enIndexes": [
+          "152"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 152,
+      "startMs": 408600,
+      "endMs": 410400,
+      "timecodeLabel": "06:48-06:50",
+      "textEn": "A derivative restatement of the kind of stuff",
+      "textZh": "再一次强调说你能在任何一个麻省理工的",
+      "source": {
+        "zhIndex": "152",
+        "enIndexes": [
+          "153"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 153,
+      "startMs": 410600,
+      "endMs": 413600,
+      "timecodeLabel": "06:50-06:53",
+      "textEn": "You can find scribbled on the wallof any men's room at mit,sure.",
+      "textZh": "男生寝室墙上发现那些涂鸦那一点没错",
+      "source": {
+        "zhIndex": "153",
+        "enIndexes": [
+          "154"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 154,
+      "startMs": 414500,
+      "endMs": 415800,
+      "timecodeLabel": "06:54-06:55",
+      "textEn": "-what? -come on.",
+      "textZh": "一什么-得了吧",
+      "source": {
+        "zhIndex": "154",
+        "enIndexes": [
+          "156"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 155,
+      "startMs": 416000,
+      "endMs": 419600,
+      "timecodeLabel": "06:56-06:59",
+      "textEn": "Who hasn't seen this differential below \"here I sit.broken-hearted?",
+      "textZh": "看到那微分上面写着我打住了心碎了算不",
+      "source": {
+        "zhIndex": "155",
+        "enIndexes": [
+          "157",
+          "158"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 156,
+      "startMs": 416600,
+      "endMs": 419600,
+      "timecodeLabel": "06:56-06:59",
+      "textEn": "Who hasn't seen this differential below \"here I sit.broken-hearted?",
+      "textZh": "看到那微分上写着我打住了碎了算不",
+      "source": {
+        "zhIndex": "156",
+        "enIndexes": [
+          "158"
+        ]
+      },
+      "qualityFlags": [
+        "large_time_delta"
+      ]
+    },
+    {
+      "lineIndex": 157,
+      "startMs": 420000,
+      "endMs": 422500,
+      "timecodeLabel": "07:00-07:02",
+      "textEn": "At least I didn't have to invent 26 dimensions",
+      "textZh": "至少我不会为了解决个数学问题",
+      "source": {
+        "zhIndex": "157",
+        "enIndexes": [
+          "159"
+        ]
+      },
+      "qualityFlags": []
+    },
+    {
+      "lineIndex": 158,
+      "startMs": 422600,
+      "endMs": 423900,
+      "timecodeLabel": "07:02-07:03",
+      "textEn": "Just to make the math come out.",
+      "textZh": "去发明个什么26维出来",
+      "source": {
+        "zhIndex": "158",
+        "enIndexes": [
+          "160"
+        ]
+      },
+      "qualityFlags": []
+    }
+  ]
+}

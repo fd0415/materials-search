@@ -1,0 +1,291 @@
+{
+  "filesIdentical": false,
+  "en": {
+    "entryCount": 161,
+    "badBlockCount": 0,
+    "durationMs": 424500,
+    "chineseChars": 0,
+    "latinChars": 3773,
+    "digits": 3301,
+    "zeroOrNegative": 0,
+    "overlaps": 0,
+    "shortUnder300ms": 9,
+    "noiseSuspects": 2,
+    "first3": [
+      {
+        "index": "1",
+        "start": 300,
+        "end": 2700,
+        "text": "However,if it's observed after it's left the plane"
+      },
+      {
+        "index": "2",
+        "start": 2800,
+        "end": 2999,
+        "text": "But before it hits its target,"
+      },
+      {
+        "index": "3",
+        "start": 3000,
+        "end": 3999,
+        "text": "But before it hits its target,"
+      }
+    ],
+    "last3": [
+      {
+        "index": "159",
+        "start": 420000,
+        "end": 422500,
+        "text": "At least I didn't have to invent 26 dimensions"
+      },
+      {
+        "index": "160",
+        "start": 422600,
+        "end": 423900,
+        "text": "Just to make the math come out."
+      },
+      {
+        "index": "161",
+        "start": 424100,
+        "end": 424500,
+        "text": "#"
+      }
+    ],
+    "noiseExamples": [
+      {
+        "index": "25",
+        "start": 70900,
+        "end": 71500,
+        "text": "#  #"
+      },
+      {
+        "index": "70",
+        "start": 198000,
+        "end": 200100,
+        "text": "=oh.hi.=hi."
+      }
+    ]
+  },
+  "zh": {
+    "entryCount": 158,
+    "badBlockCount": 0,
+    "durationMs": 423900,
+    "chineseChars": 1438,
+    "latinChars": 77,
+    "digits": 3237,
+    "zeroOrNegative": 0,
+    "overlaps": 0,
+    "shortUnder300ms": 2,
+    "noiseSuspects": 6,
+    "first3": [
+      {
+        "index": "1",
+        "start": 300,
+        "end": 2700,
+        "text": "但如果它是在离开平面后"
+      },
+      {
+        "index": "2",
+        "start": 2800,
+        "end": 3999,
+        "text": "在击中目标物之前被观测到"
+      },
+      {
+        "index": "3",
+        "start": 4000,
+        "end": 5200,
+        "text": "那它不会同时通过两个狭缝"
+      }
+    ],
+    "last3": [
+      {
+        "index": "156",
+        "start": 418400,
+        "end": 419600,
+        "text": "看到那微分上写着我打住了碎了算不"
+      },
+      {
+        "index": "157",
+        "start": 420000,
+        "end": 422500,
+        "text": "至少我不会为了解决个数学问题"
+      },
+      {
+        "index": "158",
+        "start": 422600,
+        "end": 423900,
+        "text": "去发明个什么26维出来"
+      }
+    ],
+    "noiseExamples": [
+      {
+        "index": "20",
+        "start": 47800,
+        "end": 51000,
+        "text": "这里是高智商**库吗"
+      },
+      {
+        "index": "31",
+        "start": 87300,
+        "end": 88999,
+        "text": "我们的**并不能保证"
+      },
+      {
+        "index": "40",
+        "start": 107000,
+        "end": 109100,
+        "text": "会把希望寄托在我**上的"
+      },
+      {
+        "index": "48",
+        "start": 127200,
+        "end": 130400,
+        "text": "找不知道我以前从来没在捐献**时中途走人"
+      },
+      {
+        "index": "52",
+        "start": 150700,
+        "end": 152400,
+        "text": "你还在为那个**库的事生气吗"
+      },
+      {
+        "index": "125",
+        "start": 351100,
+        "end": 352299,
+        "text": "，地球开始冷却！"
+      }
+    ]
+  },
+  "alignment": {
+    "matchedByTimeOverlap": 154,
+    "unmatchedEn": 7,
+    "matchRate": 0.957,
+    "avgAbsStartDeltaMs": 196.8,
+    "examples": [
+      {
+        "enIndex": "1",
+        "zhIndex": "1",
+        "overlapMs": 2400,
+        "enStart": 300,
+        "zhStart": 300,
+        "startDeltaMs": 0,
+        "enText": "However,if it's observed after it's left the plane",
+        "zhText": "但如果它是在离开平面后"
+      },
+      {
+        "enIndex": "2",
+        "zhIndex": "2",
+        "overlapMs": 199,
+        "enStart": 2800,
+        "zhStart": 2800,
+        "startDeltaMs": 0,
+        "enText": "But before it hits its target,",
+        "zhText": "在击中目标物之前被观测到"
+      },
+      {
+        "enIndex": "3",
+        "zhIndex": "2",
+        "overlapMs": 999,
+        "enStart": 3000,
+        "zhStart": 2800,
+        "startDeltaMs": 200,
+        "enText": "But before it hits its target,",
+        "zhText": "在击中目标物之前被观测到"
+      },
+      {
+        "enIndex": "4",
+        "zhIndex": "3",
+        "overlapMs": 200,
+        "enStart": 4000,
+        "zhStart": 4000,
+        "startDeltaMs": 0,
+        "enText": "it won't have gone through both slits.",
+        "zhText": "那它不会同时通过两个狭缝"
+      },
+      {
+        "enIndex": "5",
+        "zhIndex": "4",
+        "overlapMs": 600,
+        "enStart": 6100,
+        "zhStart": 6100,
+        "startDeltaMs": 0,
+        "enText": "II1555Agreed.whats your point?XA 1",
+        "zhText": "没错你想说什么\nm口心 TA"
+      },
+      {
+        "enIndex": "6",
+        "zhIndex": "6",
+        "overlapMs": 2200,
+        "enStart": 8100,
+        "zhStart": 7700,
+        "startDeltaMs": 400,
+        "enText": "There's no point,I just think it's a good idea for a t-shirt.",
+        "zhText": "没什么我只是觉得这个主意放在T恤上不镜"
+      },
+      {
+        "enIndex": "7",
+        "zhIndex": "7",
+        "overlapMs": 1700,
+        "enStart": 16700,
+        "zhStart": 16700,
+        "startDeltaMs": 0,
+        "enText": "excuse me. -hang on",
+        "zhText": "-您好-稍等"
+      },
+      {
+        "enIndex": "8",
+        "zhIndex": "9",
+        "overlapMs": 400,
+        "enStart": 22700,
+        "zhStart": 24000,
+        "startDeltaMs": -1300,
+        "enText": "One across is \"aegean.\"",
+        "zhText": "横1是爱琴海"
+      }
+    ],
+    "unmatchedExamples": [
+      {
+        "index": "18",
+        "start": 56500,
+        "end": 58000,
+        "text": "I think this is theplace."
+      },
+      {
+        "index": "20",
+        "start": 60800,
+        "end": 61500,
+        "text": "#"
+      },
+      {
+        "index": "23",
+        "start": 64500,
+        "end": 65000,
+        "text": "#"
+      },
+      {
+        "index": "117",
+        "start": 320400,
+        "end": 320600,
+        "text": "623"
+      },
+      {
+        "index": "137",
+        "start": 364600,
+        "end": 365900,
+        "text": "BTTE"
+      },
+      {
+        "index": "155",
+        "start": 414000,
+        "end": 414400,
+        "text": ".1"
+      },
+      {
+        "index": "161",
+        "start": 424100,
+        "end": 424500,
+        "text": "#"
+      }
+    ]
+  }
+}
