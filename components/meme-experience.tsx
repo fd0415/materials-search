@@ -17,7 +17,7 @@ const REFINES = ["更狠一点", "温柔一点", "换个角度", "换一批"];
 
 const EXAMPLE_GALLERY: MemeResult[] = [
   { segmentId: "segment-0011", coverUrl: "/covers/segment-0011.webp", timecode: "", caption: "周一早晨，连楼梯都不想爬。" },
-  { segmentId: "segment-0021", coverUrl: "/covers/segment-0021.webp", timecode: "", caption: "催婚现场：嗯嗯哦哦好。" },
+  { segmentId: "segment-0016", coverUrl: "/covers/segment-0016.webp", timecode: "", caption: "催婚现场：嗯嗯哦哦好。" },
   { segmentId: "segment-0026", coverUrl: "/covers/segment-0026.webp", timecode: "", caption: "甩锅当自己家，谢谢不用谢！" }
 ];
 

@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { cosine } from "@/lib/ai/embeddings";
-import { getSegment, type Segment } from "@/lib/meme/library";
+import { BLOCKED_SEGMENT_IDS, getSegment, type Segment } from "@/lib/meme/library";
 
 type EmbeddingItem = { id: string; embedding: number[] };
 
@@ -21,7 +21,7 @@ function loadEmbeddings(): EmbeddingItem[] {
 export function semanticTopK(queryVec: number[], excludeIds: string[], k: number): Segment[] {
   const exclude = new Set(excludeIds);
   return loadEmbeddings()
-    .filter((item) => !exclude.has(item.id))
+    .filter((item) => !exclude.has(item.id) && !BLOCKED_SEGMENT_IDS.has(item.id))
     .map((item) => ({ id: item.id, score: cosine(queryVec, item.embedding) }))
     .sort((a, b) => b.score - a.score)
     .slice(0, k)
