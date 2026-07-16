@@ -1,96 +1,60 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 type MemeResult = {
   segmentId: string;
   timecode: string;
-  textEn: string;
-  textZh: string;
+  textEn?: string;
+  textZh?: string;
   coverUrl: string;
   caption: string;
 };
 
 const EXAMPLES = ["今天被老板 PUA 了，想阴阳一下", "又被催婚了", "室友还是不洗碗", "周一根本不想上班"];
+const REFINES = ["更狠一点", "温柔一点", "换个角度", "换一批"];
+
+const EXAMPLE_GALLERY: MemeResult[] = [
+  { segmentId: "segment-0011", coverUrl: "/covers/segment-0011.webp", timecode: "", caption: "周一早晨，连楼梯都不想爬。" },
+  { segmentId: "segment-0021", coverUrl: "/covers/segment-0021.webp", timecode: "", caption: "催婚现场：嗯嗯哦哦好。" },
+  { segmentId: "segment-0026", coverUrl: "/covers/segment-0026.webp", timecode: "", caption: "甩锅当自己家，谢谢不用谢！" }
+];
 
 export default function MemePage() {
+  const [sessionId] = useState(() => crypto.randomUUID());
   const [message, setMessage] = useState("");
   const [results, setResults] = useState<MemeResult[]>([]);
+  const [reply, setReply] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [copied, setCopied] = useState("");
+  const [started, setStarted] = useState(false);
 
-  // 已展示过的片段 id（用于「换一批」去重）
-  const deliveredRef = useRef<string[]>([]);
-  // 后台预取的下一批：{ key: 当前处境, promise }
-  const prefetchRef = useRef<{ key: string; promise: Promise<MemeResult[]> } | null>(null);
+  const showExamples = !started && !loading;
+  const cards = showExamples ? EXAMPLE_GALLERY : results;
 
-  async function fetchBatch(text: string, excludeIds: string[]): Promise<MemeResult[]> {
-    const res = await fetch("/api/meme", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: text, excludeIds })
-    });
-    const data = (await res.json()) as { results?: MemeResult[]; error?: string };
-    if (!res.ok || data.error) {
-      throw new Error(data.error ?? "生成失败");
-    }
-    return data.results ?? [];
-  }
-
-  // 出完一批后，后台预生成下一批，让「换一批」秒出
-  function prefetchNext(text: string) {
-    prefetchRef.current = {
-      key: text,
-      promise: fetchBatch(text, [...deliveredRef.current]).catch(() => [])
-    };
-  }
-
-  async function generate(text: string) {
+  async function send(text: string) {
     const q = text.trim();
-    if (!q) {
-      return;
-    }
-    setLoading(true);
-    setError("");
-    deliveredRef.current = [];
-    prefetchRef.current = null;
-    try {
-      const batch = await fetchBatch(q, []);
-      setResults(batch);
-      deliveredRef.current = batch.map((r) => r.segmentId);
-      prefetchNext(q);
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "生成失败");
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  async function reroll() {
-    const q = message.trim();
-    if (!q) {
+    if (!q || loading) {
       return;
     }
     setLoading(true);
     setError("");
     try {
-      let batch: MemeResult[] | null = null;
-      if (prefetchRef.current?.key === q) {
-        batch = await prefetchRef.current.promise; // 多半已就绪 → 秒出
+      const res = await fetch("/api/agent", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId, message: q })
+      });
+      const data = (await res.json()) as { results?: MemeResult[]; reply?: string; error?: string };
+      if (!res.ok || data.error) {
+        setReply(data.reply ?? "");
+        throw new Error(data.error ?? "生成失败");
       }
-      if (!batch || batch.length === 0) {
-        batch = await fetchBatch(q, deliveredRef.current);
-      }
-      if (batch.length === 0) {
-        // 素材换完了，重置去重从头再来
-        deliveredRef.current = [];
-        batch = await fetchBatch(q, []);
-      }
-      setResults(batch);
-      deliveredRef.current = [...deliveredRef.current, ...batch.map((r) => r.segmentId)];
-      prefetchNext(q);
+      setResults(data.results ?? []);
+      setReply(data.reply ?? "");
+      setStarted(true);
     } catch (e) {
       setError(e instanceof Error ? e.message : "生成失败");
     } finally {
@@ -129,27 +93,30 @@ export default function MemePage() {
           <input
             className="flex-1 rounded-2xl border border-slate-700 bg-slate-900 px-5 py-4 text-base outline-none placeholder:text-slate-500 focus:border-slate-500"
             onChange={(e) => setMessage(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && generate(message)}
-            placeholder="说说你的处境，例：今天被老板 PUA 了"
+            onKeyDown={(e) => e.key === "Enter" && send(message)}
+            placeholder={started ? "接着说：更狠一点 / 换个角度 / 要谢尔顿的…" : "说说你的处境，例：今天被老板 PUA 了"}
             value={message}
           />
           <button
             className="rounded-2xl bg-white px-6 py-4 font-semibold text-slate-950 disabled:opacity-50"
             disabled={loading}
-            onClick={() => generate(message)}
+            onClick={() => send(message)}
           >
-            {loading ? "生成中…" : "生成梗图"}
+            {loading ? "生成中…" : started ? "发送" : "生成梗图"}
           </button>
         </div>
 
         <div className="mx-auto mt-4 flex max-w-2xl flex-wrap justify-center gap-2">
-          {EXAMPLES.map((ex) => (
+          {(started ? REFINES : EXAMPLES).map((ex) => (
             <button
-              className="rounded-full border border-slate-700 px-3 py-1 text-sm text-slate-300 hover:border-slate-500"
+              className="rounded-full border border-slate-700 px-3 py-1 text-sm text-slate-300 hover:border-slate-500 disabled:opacity-40"
+              disabled={loading}
               key={ex}
               onClick={() => {
-                setMessage(ex);
-                generate(ex);
+                if (!started) {
+                  setMessage(ex);
+                }
+                send(ex);
               }}
             >
               {ex}
@@ -159,47 +126,37 @@ export default function MemePage() {
 
         {error && <p className="mt-8 text-center text-red-400">{error}</p>}
 
-        {results.length > 0 && (
-          <>
-            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {results.map((r) => (
-                <figure className="overflow-hidden rounded-3xl border border-slate-800 bg-slate-900" key={r.segmentId}>
-                  <div className="relative aspect-video bg-black">
-                    <img alt="" className="h-full w-full object-cover" src={r.coverUrl} />
-                    <span className="absolute left-3 top-3 rounded-full bg-black/60 px-2 py-1 text-xs">{r.timecode}</span>
-                  </div>
-                  <figcaption className="space-y-3 p-4">
-                    <p className="text-base font-medium leading-relaxed">{r.caption}</p>
-                    <div className="flex gap-2">
-                      <button
-                        className="flex-1 rounded-xl border border-slate-700 py-2 text-sm hover:border-slate-500"
-                        onClick={() => copyCaption(r.caption, r.segmentId)}
-                      >
-                        {copied === r.segmentId ? "已复制配文" : "复制配文"}
-                      </button>
-                      <button
-                        className="flex-1 rounded-xl bg-white py-2 text-sm font-medium text-slate-950 hover:bg-slate-200"
-                        onClick={() => downloadImage(r.coverUrl, r.segmentId)}
-                      >
-                        下载图片
-                      </button>
-                    </div>
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
+        <p className="mt-12 min-h-[1.25rem] text-center text-sm font-medium tracking-wide text-slate-400">
+          {loading ? "思考中…" : showExamples ? "示例效果 · 输入处境即可生成你的专属梗图" : reply}
+        </p>
 
-            <div className="mt-8 text-center">
-              <button
-                className="rounded-2xl border border-slate-600 px-6 py-3 font-medium hover:border-slate-400 disabled:opacity-50"
-                disabled={loading}
-                onClick={reroll}
-              >
-                {loading ? "换一批中…" : "换一批"}
-              </button>
-            </div>
-          </>
-        )}
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {cards.map((r) => (
+            <figure className="flex flex-col overflow-hidden rounded-3xl bg-slate-900 ring-1 ring-slate-800" key={r.segmentId}>
+              <img alt="" className="aspect-video w-full object-cover" src={r.coverUrl} />
+              <div className="flex flex-1 flex-col gap-3 border-t border-slate-800 p-4">
+                <div className="rounded-2xl bg-slate-800/50 px-4 py-3">
+                  <span className="text-xs font-medium tracking-wide text-slate-400">配文</span>
+                  <p className="mt-1 text-base font-medium leading-relaxed text-slate-50">{r.caption}</p>
+                </div>
+                <div className="mt-auto flex gap-2">
+                  <button
+                    className="flex-1 rounded-xl border border-slate-700 py-2 text-sm hover:border-slate-500"
+                    onClick={() => copyCaption(r.caption, r.segmentId)}
+                  >
+                    {copied === r.segmentId ? "已复制配文" : "复制配文"}
+                  </button>
+                  <button
+                    className="flex-1 rounded-xl bg-white py-2 text-sm font-medium text-slate-950 hover:bg-slate-200"
+                    onClick={() => downloadImage(r.coverUrl, r.segmentId)}
+                  >
+                    下载图片
+                  </button>
+                </div>
+              </div>
+            </figure>
+          ))}
+        </div>
       </div>
     </main>
   );

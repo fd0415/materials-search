@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>嘴替梗图助手 · 在线/离线流程图</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1a1d23;
+    --muted: #656b76;
+    --border: #e3e6ea;
+    --accent: #4f46e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --card: #1c1f26;
+      --text: #e8eaed;
+      --muted: #9aa1ab;
+      --border: #2c313a;
+      --accent: #8b83f7;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 64px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", Segoe UI, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 28px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  h2 .tag {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--accent);
+    padding: 2px 10px;
+    border-radius: 999px;
+  }
+  .note { color: var(--muted); font-size: 13px; margin: 0 0 18px; }
+  .diagram { overflow-x: auto; }
+  .mermaid { display: flex; justify-content: center; }
+  .footnote {
+    font-size: 13px;
+    color: var(--muted);
+    border-top: 1px dashed var(--border);
+    padding-top: 16px;
+    margin-top: 8px;
+  }
+  code {
+    background: var(--bg);
+    padding: 1px 6px;
+    border-radius: 5px;
+    font-size: 12.5px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>嘴替梗图助手 · 流程图</h1>
+  <div class="sub">基于 v1 实际代码（<code>lib/meme/agent.ts</code> / <code>scripts/tagging/embed-segments.mjs</code>）· 虚线为规划中未落地</div>
+
+  <div class="card">
+    <h2>离线阶段 <span class="tag">预处理 · 跑一次</span></h2>
+    <p class="note">把剧集字幕加工成一个「能按语义搜」的片段库。导入素材时跑一遍，新增素材再重跑。</p>
+    <div class="diagram">
+      <pre class="mermaid">
+flowchart TD
+    A["英文 en.srt + 中文 zh.srt"] --> B["解析 + 清洗去噪<br/>滤掉 字幕组/水印/纯符号 等垃圾行"]
+    B --> C["中英按时间轴对齐<br/>成双语台词行"]
+    C --> D["切片段<br/>≤6句 / ≤16秒 / 停顿>4.5秒 断开"]
+    D --> E[("subtitle-segments.json<br/>30 段 · 中英台词 + 时间码 + 封面名")]
+    E --> F["embed-segments.mjs<br/>取每段中文台词"]
+    F --> G["SiliconFlow bge-m3 向量化<br/>批量 CHUNK=16"]
+    G --> H[("segment-embeddings.json<br/>id + 向量 → 供在线召回")]
+    E -. 封面已有 .-> I["material/covers/*.webp<br/>前端 /covers/xxx.webp 直接访问"]
+    J["规划中未落地：<br/>ffmpeg 抽帧、低档模型打情绪/场景标签"] -.-> H
+</pre>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>在线阶段 <span class="tag">runAgent · 每轮对话</span></h2>
+    <p class="note">「Agent 味」在于大脑 planTurn 自己判断这轮该重搜 / 换一批 / 只改配文，而非写死流程。红色两步是 LLM 调用。</p>
+    <div class="diagram">
+      <pre class="mermaid">
+flowchart TD
+    U["用户说一句：message + sessionId"] --> S["getSession 取会话记忆<br/>候选池 pool · 已发 delivered · 当前图 current · 语气 tone · history"]
+    S --> P["① 大脑 planTurn · DeepSeek<br/>读 history + 这句 → 返回 JSON<br/>action / search / tone / reply"]
+    P --> D{"action 三选一"}
+    D -->|"research 新处境"| R3["把 search 用 bge-m3 算成查询向量<br/>与 30 段向量逐一算余弦、排掉看过的<br/>取最像的重建 pool → 前 3 条"]
+    D -->|"next 换一批"| R2["不重新检索<br/>从 pool 取还没发过的 3 条<br/>取空则重置 delivered 再取"]
+    D -->|"recaption 只改配文"| R1["图不变<br/>沿用 current 那几张"]
+    R3 --> C["② 写配文 captionize · DeepSeek<br/>按 tone 给每条台词配 ≤20 字文案"]
+    R2 --> C
+    R1 --> C
+    C --> W["更新记忆并存回 saveSession<br/>current / delivered / tone / history"]
+    W --> O["返回 reply + 3 张成品<br/>封面图 coverUrl + 配文"]
+
+    classDef llm fill:#ef4444,stroke:#b91c1c,color:#fff;
+    class P,C llm;
+</pre>
+    </div>
+    <div class="footnote">
+      看懂三个动作就懂了整个 Agent：<b>research</b>=换个处境重新语义检索；<b>next</b>=同一处境再换几张、复用候选池不重搜；<b>recaption</b>=图不动只把配文改狠/改软。<br/>
+      实际 vs spec：spec 里的「离线 LLM 打标签、function-calling 工具循环、ffmpeg 出图」在 v1 尚未落地；当前检索是本地向量余弦召回，规划/配文是让大模型返回 JSON。
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: dark ? 'dark' : 'default',
+    flowchart: { curve: 'basis', useMaxWidth: true }
+  });
+</script>
+</body>
+</html>
