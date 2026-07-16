@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The Big Bang Theory Search",
-  description: "Search bilingual subtitle clips for The Big Bang Theory."
+  title: "嘴替梗图助手",
+  description: "说说你的处境，帮你从《生活大爆炸》里挑梗、配文，生成可直接发的表情包。"
 };
 
 export default function RootLayout({
