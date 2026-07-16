@@ -21,7 +21,7 @@ const EXAMPLE_GALLERY: MemeResult[] = [
   { segmentId: "segment-0026", coverUrl: "/covers/segment-0026.webp", timecode: "", caption: "甩锅当自己家，谢谢不用谢！" }
 ];
 
-export default function MemePage() {
+export function MemeExperience() {
   const [sessionId] = useState(() => crypto.randomUUID());
   const [message, setMessage] = useState("");
   const [results, setResults] = useState<MemeResult[]>([]);

@@ -1,12 +1,5 @@
-import { SearchExperience } from "@/components/search-experience";
+import { MemeExperience } from "@/components/meme-experience";
 
-type HomePageProps = {
-  searchParams: Promise<{
-    q?: string;
-  }>;
-};
-
-export default async function HomePage({ searchParams }: HomePageProps) {
-  const { q = "" } = await searchParams;
-  return <SearchExperience initialQuery={q} />;
+export default function HomePage() {
+  return <MemeExperience />;
 }
